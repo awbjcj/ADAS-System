@@ -1,0 +1,1548 @@
+VERSION ""
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_: CLM
+VAL_TABLE_ Vehicle_Lane_Type 5 "Right of Right Lane" 4 "Tread in Right Lane" 3 "between Left Lane and Right Lane" 2 "Tread in Left Lane" 1 "Left of Left Lane" 0 "unknow" ;
+
+
+BO_ 3221225472 VECTOR__INDEPENDENT_SIG_MSG: 0 Vector__XXX
+ SG_ pedRider_Pos_Y : 0|16@0+ (0.01,0) [0|655.35] "m" Vector__XXX
+ SG_ PedRider_Pos_X : 0|16@0+ (0.01,0) [0|655.35] "m" Vector__XXX
+ SG_ HSLR_Dist : 0|15@0+ (0.0625,0) [0|2047.9375] "m" Vector__XXX
+ SG_ SPEED_LIMIT_VALUE : 0|8@0+ (1,0) [0|255] "km/h" Vector__XXX
+ SG_ SPDLIMBORD_VALID : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ Vehicle_Lane : 0|3@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ Vehicle_Lane : 0|3@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ Vehicle_Lane : 0|3@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ Vehicle_Lane : 0|3@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ Vehicle_Lane : 0|3@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ Vehicle_Lane : 0|3@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ Vehicle_Lane : 0|3@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ Vehicle_Lane : 0|3@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ Vehicle_Lane : 0|3@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ Vehicle_Lane : 0|3@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ Vehicle_Lane : 0|3@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ Vehicle_Lane : 0|3@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ Vehicle_Lane : 0|3@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ Vehicle_Lane : 0|3@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ Vehicle_Lane : 0|3@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ Vehicle_Lane : 0|3@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ StopZebra_MSG_RC : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ StopLine_Confidence : 0|3@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ StopLine_r : 0|9@0+ (0.2,0) [0|102.2] "m" Vector__XXX
+ SG_ StopLine_Angle : 0|9@0+ (0.7045,-180) [-180|179.9995] "deg" Vector__XXX
+ SG_ ESR_NOT_CONNECT : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VEH_NOT_CONNECT : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ IFVS_NOT_CONNECT : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ HighSpeedLimit_Stu : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+
+BO_ 1032 Traffic_Light_8: 8 Vector__XXX
+ SG_ TrafficLight8_Horiaon_Angle : 15|11@0+ (0.0879,-90) [-90|89.9313] "deg" Vector__XXX
+ SG_ TrafficLight8_DistRange : 39|8@0+ (1,0) [0|255] "m" Vector__XXX
+ SG_ TrafficLight8_Valid : 4|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ TrafficLight8_Type : 7|3@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ TrafficLight8_MSG_RC : 3|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ TrafficLight8_Color : 20|2@0+ (1,0) [0|3] "" Vector__XXX
+
+BO_ 1031 Traffic_Light_7: 8 Vector__XXX
+ SG_ TrafficLight7_Horiaon_Angle : 15|11@0+ (0.0879,-90) [-90|89.9313] "deg" Vector__XXX
+ SG_ TrafficLight7_DistRange : 39|8@0+ (1,0) [0|255] "m" Vector__XXX
+ SG_ TrafficLight7_Valid : 4|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ TrafficLight7_Type : 7|3@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ TrafficLight7_MSG_RC : 3|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ TrafficLight7_Color : 20|2@0+ (1,0) [0|3] "" Vector__XXX
+
+BO_ 1030 Traffic_Light_6: 8 Vector__XXX
+ SG_ TrafficLight6_Horiaon_Angle : 15|11@0+ (0.0879,-90) [-90|89.9313] "deg" Vector__XXX
+ SG_ TrafficLight6_DistRange : 39|8@0+ (1,0) [0|255] "m" Vector__XXX
+ SG_ TrafficLight6_Valid : 4|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ TrafficLight6_Type : 7|3@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ TrafficLight6_MSG_RC : 3|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ TrafficLight6_Color : 20|2@0+ (1,0) [0|3] "" Vector__XXX
+
+BO_ 1029 Traffic_Light_5: 8 Vector__XXX
+ SG_ TrafficLight5_Horiaon_Angle : 15|11@0+ (0.0879,-90) [-90|89.9313] "deg" Vector__XXX
+ SG_ TrafficLight5_DistRange : 39|8@0+ (1,0) [0|255] "m" Vector__XXX
+ SG_ TrafficLight5_Valid : 4|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ TrafficLight5_Type : 7|3@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ TrafficLight5_MSG_RC : 3|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ TrafficLight5_Color : 20|2@0+ (1,0) [0|3] "" Vector__XXX
+
+BO_ 1028 Traffic_Light_4: 8 Vector__XXX
+ SG_ TrafficLight4_Horiaon_Angle : 15|11@0+ (0.0879,-90) [-90|89.9313] "deg" Vector__XXX
+ SG_ TrafficLight4_DistRange : 39|8@0+ (1,0) [0|255] "m" Vector__XXX
+ SG_ TrafficLight4_Valid : 4|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ TrafficLight4_Type : 7|3@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ TrafficLight4_MSG_RC : 3|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ TrafficLight4_Color : 20|2@0+ (1,0) [0|3] "" Vector__XXX
+
+BO_ 1027 Traffic_Light_3: 8 Vector__XXX
+ SG_ TrafficLight3_Horiaon_Angle : 15|11@0+ (0.0879,-90) [-90|89.9313] "deg" Vector__XXX
+ SG_ TrafficLight3_DistRange : 39|8@0+ (1,0) [0|255] "m" Vector__XXX
+ SG_ TrafficLight3_Valid : 4|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ TrafficLight3_Type : 7|3@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ TrafficLight3_MSG_RC : 3|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ TrafficLight3_Color : 20|2@0+ (1,0) [0|3] "" Vector__XXX
+
+BO_ 1026 Traffic_Light_2: 8 Vector__XXX
+ SG_ TrafficLight2_Horiaon_Angle : 15|11@0+ (0.0879,-90) [-90|89.9313] "deg" Vector__XXX
+ SG_ TrafficLight2_DistRange : 39|8@0+ (1,0) [0|255] "m" Vector__XXX
+ SG_ TrafficLight2_Valid : 4|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ TrafficLight2_Type : 7|3@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ TrafficLight2_MSG_RC : 3|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ TrafficLight2_Color : 20|2@0+ (1,0) [0|3] "" Vector__XXX
+
+BO_ 1025 Traffic_Light_1: 8 Vector__XXX
+ SG_ TrafficLight1_Horiaon_Angle : 15|11@0+ (0.0879,-90) [-90|89.9313] "deg" Vector__XXX
+ SG_ TrafficLight1_DistRange : 39|8@0+ (1,0) [0|255] "m" Vector__XXX
+ SG_ TrafficLight1_Valid : 4|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ TrafficLight1_Type : 7|3@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ TrafficLight1_MSG_RC : 3|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ TrafficLight1_Color : 20|2@0+ (1,0) [0|3] "" Vector__XXX
+
+BO_ 37 Veh_Message_CallBack: 8 Vector__XXX
+ SG_ BreakPedalFlag : 16|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ Rghtt_turnLight : 8|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ Lft_turnLight : 9|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ YawRate : 31|16@0- (0.0625,0) [-127|127] "" Vector__XXX
+ SG_ Vehicle_speed : 7|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 772 Curb_4: 8 Vector__XXX
+ SG_ Curb4_Valid_Start_Dist : 45|7@0+ (1,0) [0|127] "m" Vector__XXX
+ SG_ Curb4_Valid_End_Dist : 36|7@0+ (1,0) [0|127] "m" Vector__XXX
+ SG_ Curb4_Confidence : 54|3@0+ (1,0) [0|7] "m" Vector__XXX
+ SG_ Curb4_A3 : 51|12@0+ (1E-007,-0.0002048) [-0.0002048|0.0002047] "1/m2" Vector__XXX
+ SG_ Curb4_A2 : 11|12@0+ (1E-005,-0.02) [-0.02|0.02095] "1/m" Vector__XXX
+ SG_ Curb4_A1 : 31|11@0+ (0.0009,-0.9) [-0.9|0.9] "m" Vector__XXX
+ SG_ Curb4_A0 : 7|12@0+ (0.01,-16) [-16|15.99] "m" Vector__XXX
+
+BO_ 771 Curb_3: 8 Vector__XXX
+ SG_ Curb3_Valid_Start_Dist : 45|7@0+ (1,0) [0|127] "m" Vector__XXX
+ SG_ Curb3_Valid_End_Dist : 36|7@0+ (1,0) [0|127] "m" Vector__XXX
+ SG_ Curb3_Confidence : 54|3@0+ (1,0) [0|7] "m" Vector__XXX
+ SG_ Curb3_A3 : 51|12@0+ (1E-007,-0.0002048) [-0.0002048|0.0002047] "1/m2" Vector__XXX
+ SG_ Curb3_A2 : 11|12@0+ (1E-005,-0.02) [-0.02|0.02095] "1/m" Vector__XXX
+ SG_ Curb3_A1 : 31|11@0+ (0.0009,-0.9) [-0.9|0.9] "m" Vector__XXX
+ SG_ Curb3_A0 : 7|12@0+ (0.01,-16) [-16|15.99] "m" Vector__XXX
+
+BO_ 770 Curb_2: 8 Vector__XXX
+ SG_ Curb2_Valid_Start_Dist : 45|7@0+ (1,0) [0|127] "m" Vector__XXX
+ SG_ Curb2_Valid_End_Dist : 36|7@0+ (1,0) [0|127] "m" Vector__XXX
+ SG_ Curb2_Confidence : 54|3@0+ (1,0) [0|7] "m" Vector__XXX
+ SG_ Curb2_A3 : 51|12@0+ (1E-007,-0.0002048) [-0.0002048|0.0002047] "1/m2" Vector__XXX
+ SG_ Curb2_A2 : 11|12@0+ (1E-005,-0.02) [-0.02|0.02095] "1/m" Vector__XXX
+ SG_ Curb2_A1 : 31|11@0+ (0.0009,-0.9) [-0.9|0.9] "m" Vector__XXX
+ SG_ Curb2_A0 : 7|12@0+ (0.01,-16) [-16|15.99] "m" Vector__XXX
+
+BO_ 769 Curb_1: 8 Vector__XXX
+ SG_ Curb1_Valid_Start_Dist : 45|7@0+ (1,0) [0|127] "m" Vector__XXX
+ SG_ Curb1_Valid_End_Dist : 36|7@0+ (1,0) [0|127] "m" Vector__XXX
+ SG_ Curb1_Confidence : 54|3@0+ (1,0) [0|7] "m" Vector__XXX
+ SG_ Curb1_A3 : 51|12@0+ (1E-007,-0.0002048) [-0.0002048|0.0002047] "1/m2" Vector__XXX
+ SG_ Curb1_A2 : 11|12@0+ (1E-005,-0.02) [-0.02|0.02095] "1/m" Vector__XXX
+ SG_ Curb1_A1 : 31|11@0+ (0.0009,-0.9) [-0.9|0.9] "m" Vector__XXX
+ SG_ Curb1_A0 : 7|12@0+ (0.01,-16) [-16|15.99] "m" Vector__XXX
+
+BO_ 1344 AutoMsg: 8 Vector__XXX
+ SG_ Rain_State : 33|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ Tunnel : 7|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ CIPPA_Distance : 19|12@0+ (0.1,0) [0|409.5] "" Vector__XXX
+ SG_ CIPV_Distance : 15|12@0+ (0.1,0) [0|409.5] "m" Vector__XXX
+ SG_ Auto_WindshieldWiper : 3|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ Auto_LowBeam : 5|2@0+ (1,0) [0|3] "" Vector__XXX
+
+BO_ 1567 IFVS_VehInfo_sysFault: 8 Vector__XXX
+ SG_ IFVSFaultStu : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ SpeedSigStu : 1|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ YawrateSigStu : 2|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ SteerWheelSigStu : 3|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ TurnSigStu : 4|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ BrakeSigStu : 5|1@0+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 1280 FCW_WarnMsg: 8 Vector__XXX
+ SG_ LowBeam_Switch : 14|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ HIghBeam_Switch : 13|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ camera_connect_fault : 5|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ Camera_Not_Work : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ Camera_Cover : 2|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ Cal_Error : 4|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ CAL_STATUS : 9|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ LOWLIMBORD_VALID : 63|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ LOW_LIMT_VALUE : 62|7@0+ (1,0) [0|128] "" Vector__XXX
+ SG_ PED_RIDER_THW_WARN : 22|2@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ HIGH_LIMIT_VALUE : 55|8@0+ (0.1,0) [0|25.5] "m" Vector__XXX
+ SG_ SPEED_LIMIT_VALUE : 47|8@0+ (1,0) [0|255] "km/h" Vector__XXX
+ SG_ HIGHLIMBORD_VALID : 32|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ SPDLIMBORD_VALID : 33|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ PED_RIDER_TTC_WARN : 34|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ PED_RIDER_FLAG : 35|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ LDW_WARNING : 39|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ LANE_VALIDFLAG_LEFT : 37|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ LANE_VALIDFLAG_RIGHT : 36|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ FCW_WARNOBJ_TTC : 17|10@0+ (0.01,0) [0|10.23] "" Vector__XXX
+ SG_ FCW_WARNOBJ_NEARSTATUS : 12|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ FCW_TTC_WARN : 10|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ FCW_WARNOBJ_VAL : 7|1@0+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 1360 CIPV: 5 Vector__XXX
+ SG_ Night_Mode : 33|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ Right_Lane_Index : 31|8@0- (1,0) [0|255] "" Vector__XXX
+ SG_ Left_Lane_Index : 23|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ PedRider_CIPV : 15|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ Vehicle_CIPV : 7|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 785 Lane_1A: 8 CLM
+ SG_ Lane1A_MSG_RC : 3|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ Lane1_N_A0 : 15|12@0+ (0.01,-16) [-16|15.99] "m" Vector__XXX
+ SG_ Lane1_N_A1 : 18|11@0+ (0.0009,-0.9) [-0.9|0.9] "m" Vector__XXX
+ SG_ Lane1_St_Color : 5|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ Lane1_N_A2 : 35|12@0+ (1E-005,-0.02) [-0.02|0.02095] "1/m" Vector__XXX
+ SG_ Lane1_N_A3 : 51|12@0+ (1E-007,-0.0002048) [-0.0002048|0.0002047] "1/m2" Vector__XXX
+
+BO_ 786 Lane_1B: 8 CLM
+ SG_ Lane1B_MSG_RC : 3|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ Lane1_Type : 15|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ Lane1_Cross_Dist : 8|9@0+ (0.25,0) [0|127.75] "m" Vector__XXX
+ SG_ Lane1_Cross_ID : 36|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ Lane1_Valid_End_Dist : 31|9@0+ (0.25,0) [0|127.75] "m" Vector__XXX
+ SG_ Lane1_Valid_Start_Dist : 32|9@0+ (0.25,0) [0|127.75] "m" Vector__XXX
+ SG_ Lane1_Confidence : 11|3@0+ (1,0) [0|7] "" Vector__XXX
+
+BO_ 801 Lane_2A: 8 CLM
+ SG_ Lane2A_MSG_RC : 3|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ Lane2_N_A0 : 15|12@0+ (0.01,-16) [-16|15.99] "m" Vector__XXX
+ SG_ Lane2_N_A1 : 18|11@0+ (0.0009,-0.9) [-0.9|0.9] "m" Vector__XXX
+ SG_ Lane2_St_Color : 5|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ Lane2_N_A2 : 35|12@0+ (1E-005,-0.02) [-0.02|0.02095] "1/m" Vector__XXX
+ SG_ Lane2_N_A3 : 51|12@0+ (1E-007,-0.0002048) [-0.0002048|0.0002047] "1/m2" Vector__XXX
+
+BO_ 802 Lane_2B: 8 CLM
+ SG_ Lane2B_MSG_RC : 3|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ Lane2_Type : 15|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ Lane2_Cross_Dist : 8|9@0+ (0.25,0) [0|127.75] "m" Vector__XXX
+ SG_ Lane2_Cross_ID : 36|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ Lane2_Valid_End_Dist : 31|9@0+ (0.25,0) [0|127.75] "m" Vector__XXX
+ SG_ Lane2_Valid_Start_Dist : 32|9@0+ (0.25,0) [0|127.75] "m" Vector__XXX
+ SG_ Lane2_Confidence : 11|3@0+ (1,0) [0|7] "" Vector__XXX
+
+BO_ 817 Lane_3A: 8 CLM
+ SG_ Lane3A_MSG_RC : 3|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ Lane3_N_A0 : 15|12@0+ (0.01,-16) [-16|15.99] "m" Vector__XXX
+ SG_ Lane3_N_A1 : 18|11@0+ (0.0009,-0.9) [-0.9|0.9] "m" Vector__XXX
+ SG_ Lane3_St_Color : 5|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ Lane3_N_A2 : 35|12@0+ (1E-005,-0.02) [-0.02|0.02095] "1/m" Vector__XXX
+ SG_ Lane3_N_A3 : 51|12@0+ (1E-007,-0.0002048) [-0.0002048|0.0002047] "1/m2" Vector__XXX
+
+BO_ 818 Lane_3B: 8 CLM
+ SG_ Lane3B_MSG_RC : 3|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ Lane3_Type : 15|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ Lane3_Cross_Dist : 8|9@0+ (0.25,0) [0|127.75] "m" Vector__XXX
+ SG_ Lane3_Cross_ID : 36|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ Lane3_Valid_End_Dist : 31|9@0+ (0.25,0) [0|127.75] "m" Vector__XXX
+ SG_ Lane3_Valid_Start_Dist : 32|9@0+ (0.25,0) [0|127.75] "m" Vector__XXX
+ SG_ Lane3_Confidence : 11|3@0+ (1,0) [0|7] "" Vector__XXX
+
+BO_ 833 Lane_4A: 8 CLM
+ SG_ Lane4A_MSG_RC : 3|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ Lane4_N_A0 : 15|12@0+ (0.01,-16) [-16|15.99] "m" Vector__XXX
+ SG_ Lane4_N_A1 : 18|11@0+ (0.0009,-0.9) [-0.9|0.9] "m" Vector__XXX
+ SG_ Lane4_St_Color : 5|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ Lane4_N_A2 : 35|12@0+ (1E-005,-0.02) [-0.02|0.02095] "1/m" Vector__XXX
+ SG_ Lane4_N_A3 : 51|12@0+ (1E-007,-0.0002048) [-0.0002048|0.0002047] "1/m2" Vector__XXX
+
+BO_ 834 Lane_4B: 8 CLM
+ SG_ Lane4B_MSG_RC : 3|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ Lane4_Type : 15|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ Lane4_Cross_Dist : 8|9@0+ (0.25,0) [0|127.75] "m" Vector__XXX
+ SG_ Lane4_Cross_ID : 36|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ Lane4_Valid_End_Dist : 31|9@0+ (0.25,0) [0|127.75] "m" Vector__XXX
+ SG_ Lane4_Valid_Start_Dist : 32|9@0+ (0.25,0) [0|127.75] "m" Vector__XXX
+ SG_ Lane4_Confidence : 11|3@0+ (1,0) [0|7] "" Vector__XXX
+
+BO_ 849 Lane_5A: 8 CLM
+ SG_ Lane5A_MSG_RC : 3|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ Lane5_N_A0 : 15|12@0+ (0.01,-16) [-16|15.99] "m" Vector__XXX
+ SG_ Lane5_N_A1 : 18|11@0+ (0.0009,-0.9) [-0.9|0.9] "m" Vector__XXX
+ SG_ Lane5_St_Color : 5|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ Lane5_N_A2 : 35|12@0+ (1E-005,-0.02) [-0.02|0.02095] "1/m" Vector__XXX
+ SG_ Lane5_N_A3 : 51|12@0+ (1E-007,-0.0002048) [-0.0002048|0.0002047] "1/m2" Vector__XXX
+
+BO_ 850 Lane_5B: 8 CLM
+ SG_ Lane5B_MSG_RC : 3|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ Lane5_Type : 15|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ Lane5_Cross_Dist : 8|9@0+ (0.25,0) [0|127.75] "m" Vector__XXX
+ SG_ Lane5_Cross_ID : 36|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ Lane5_Valid_End_Dist : 31|9@0+ (0.25,0) [0|127.75] "m" Vector__XXX
+ SG_ Lane5_Valid_Start_Dist : 32|9@0+ (0.25,0) [0|127.75] "m" Vector__XXX
+ SG_ Lane5_Confidence : 11|3@0+ (1,0) [0|7] "" Vector__XXX
+
+BO_ 865 Lane_6A: 8 CLM
+ SG_ Lane6A_MSG_RC : 3|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ Lane6_N_A0 : 15|12@0+ (0.01,-16) [-16|15.99] "m" Vector__XXX
+ SG_ Lane6_N_A1 : 18|11@0+ (0.0009,-0.9) [-0.9|0.9] "m" Vector__XXX
+ SG_ Lane6_St_Color : 5|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ Lane6_N_A2 : 35|12@0+ (1E-005,-0.02) [-0.02|0.02095] "1/m" Vector__XXX
+ SG_ Lane6_N_A3 : 51|12@0+ (1E-007,-0.0002048) [-0.0002048|0.0002047] "1/m2" Vector__XXX
+
+BO_ 866 Lane_6B: 8 CLM
+ SG_ Lane6B_MSG_RC : 3|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ Lane6_Type : 15|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ Lane6_Cross_Dist : 8|9@0+ (0.25,0) [0|127.75] "m" Vector__XXX
+ SG_ Lane6_Cross_ID : 36|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ Lane6_Valid_End_Dist : 31|9@0+ (0.25,0) [0|127.75] "m" Vector__XXX
+ SG_ Lane6_Valid_Start_Dist : 32|9@0+ (0.25,0) [0|127.75] "m" Vector__XXX
+ SG_ Lane6_Confidence : 11|3@0+ (1,0) [0|7] "" Vector__XXX
+
+BO_ 881 Lane_7A: 8 CLM
+ SG_ Lane7A_MSG_RC : 3|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ Lane7_N_A0 : 15|12@0+ (0.01,-16) [-16|15.99] "m" Vector__XXX
+ SG_ Lane7_N_A1 : 18|11@0+ (0.0009,-0.9) [-0.9|0.9] "m" Vector__XXX
+ SG_ Lane7_St_Color : 5|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ Lane7_N_A2 : 35|12@0+ (1E-005,-0.02) [-0.02|0.02095] "1/m" Vector__XXX
+ SG_ Lane7_N_A3 : 51|12@0+ (1E-007,-0.0002048) [-0.0002048|0.0002047] "1/m2" Vector__XXX
+
+BO_ 882 Lane_7B: 8 CLM
+ SG_ Lane7B_MSG_RC : 3|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ Lane7_Type : 15|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ Lane7_Cross_Dist : 8|9@0+ (0.25,0) [0|127.75] "m" Vector__XXX
+ SG_ Lane7_Cross_ID : 36|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ Lane7_Valid_End_Dist : 31|9@0+ (0.25,0) [0|127.75] "m" Vector__XXX
+ SG_ Lane7_Valid_Start_Dist : 32|9@0+ (0.25,0) [0|127.75] "m" Vector__XXX
+ SG_ Lane7_Confidence : 11|3@0+ (1,0) [0|7] "" Vector__XXX
+
+BO_ 897 Lane_8A: 8 CLM
+ SG_ Lane8A_MSG_RC : 3|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ Lane8_N_A0 : 15|12@0+ (0.01,-16) [-16|15.99] "m" Vector__XXX
+ SG_ Lane8_N_A1 : 18|11@0+ (0.0009,-0.9) [-0.9|0.9] "m" Vector__XXX
+ SG_ Lane8_St_Color : 5|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ Lane8_N_A2 : 35|12@0+ (1E-005,-0.02) [-0.02|0.02095] "1/m" Vector__XXX
+ SG_ Lane8_N_A3 : 51|12@0+ (1E-007,-0.0002048) [-0.0002048|0.0002047] "1/m2" Vector__XXX
+
+BO_ 898 Lane_8B: 8 CLM
+ SG_ Lane8B_MSG_RC : 3|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ Lane8_Type : 15|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ Lane8_Cross_Dist : 8|9@0+ (0.25,0) [0|127.75] "m" Vector__XXX
+ SG_ Lane8_Cross_ID : 36|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ Lane8_Valid_End_Dist : 31|9@0+ (0.25,0) [0|127.75] "m" Vector__XXX
+ SG_ Lane8_Valid_Start_Dist : 32|9@0+ (0.25,0) [0|127.75] "m" Vector__XXX
+ SG_ Lane8_Confidence : 11|3@0+ (1,0) [0|7] "" Vector__XXX
+
+BO_ 256 Ped_Rider_1: 8 CLM
+ SG_ PedRider1_MSG_RC : 3|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ PedRider1_Range : 15|12@0+ (0.03125,0) [0|127.9687] "m" Vector__XXX
+ SG_ PedRider1_Heading_Angle : 19|12@0+ (0.0879,-180) [-180|179.9505] "deg" Vector__XXX
+ SG_ PedRider1_STATUS : 5|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ PedRider1_RangeRate : 39|11@0+ (0.0625,-64) [-64|63.9687] "m/s" Vector__XXX
+ SG_ PedRider1_Angle : 42|11@0+ (0.0625,-64) [-64|63.9687] "deg" Vector__XXX
+ SG_ PedRider1_Height : 59|4@0+ (0.1,0.5) [0.5|2] "m" Vector__XXX
+ SG_ PedRider1_CLASSIFICATION : 7|2@0+ (1,0) [0|3] "" Vector__XXX
+
+BO_ 265 Ped_Rider_10: 8 CLM
+ SG_ PedRider10_MSG_RC : 3|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ PedRider10_Range : 15|12@0+ (0.03125,0) [0|127.9687] "m" Vector__XXX
+ SG_ PedRider10_Heading_Angle : 19|12@0+ (0.0879,-180) [-180|179.9505] "deg" Vector__XXX
+ SG_ PedRider10_STATUS : 5|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ PedRider10_RangeRate : 39|11@0+ (0.0625,-64) [-64|63.9687] "m/s" Vector__XXX
+ SG_ PedRider10_Angle : 42|11@0+ (0.0625,-64) [-64|63.9687] "deg" Vector__XXX
+ SG_ PedRider10_Height : 59|4@0+ (0.1,0.5) [0.5|2] "m" Vector__XXX
+ SG_ PedRider10_CLASSIFICATION : 7|2@0+ (1,0) [0|3] "" Vector__XXX
+
+BO_ 266 Ped_Rider_11: 8 CLM
+ SG_ PedRider11_MSG_RC : 3|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ PedRider11_Range : 15|12@0+ (0.03125,0) [0|127.9687] "m" Vector__XXX
+ SG_ PedRider11_Heading_Angle : 19|12@0+ (0.0879,-180) [-180|179.9505] "deg" Vector__XXX
+ SG_ PedRider11_STATUS : 5|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ PedRider11_RangeRate : 39|11@0+ (0.0625,-64) [-64|63.9687] "m/s" Vector__XXX
+ SG_ PedRider11_Angle : 42|11@0+ (0.0625,-64) [-64|63.9687] "deg" Vector__XXX
+ SG_ PedRider11_Height : 59|4@0+ (0.1,0.5) [0.5|2] "m" Vector__XXX
+ SG_ PedRider11_CLASSIFICATION : 7|2@0+ (1,0) [0|3] "" Vector__XXX
+
+BO_ 267 Ped_Rider_12: 8 CLM
+ SG_ PedRider12_MSG_RC : 3|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ PedRider12_Range : 15|12@0+ (0.03125,0) [0|127.9687] "m" Vector__XXX
+ SG_ PedRider12_Heading_Angle : 19|12@0+ (0.0879,-180) [-180|179.9505] "deg" Vector__XXX
+ SG_ PedRider12_STATUS : 5|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ PedRider12_RangeRate : 39|11@0+ (0.0625,-64) [-64|63.9687] "m/s" Vector__XXX
+ SG_ PedRider12_Angle : 42|11@0+ (0.0625,-64) [-64|63.9687] "deg" Vector__XXX
+ SG_ PedRider12_Height : 59|4@0+ (0.1,0.5) [0.5|2] "m" Vector__XXX
+ SG_ PedRider12_CLASSIFICATION : 7|2@0+ (1,0) [0|3] "" Vector__XXX
+
+BO_ 268 Ped_Rider_13: 8 CLM
+ SG_ PedRider13_MSG_RC : 3|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ PedRider13_Range : 15|12@0+ (0.03125,0) [0|127.9687] "m" Vector__XXX
+ SG_ PedRider13_Heading_Angle : 19|12@0+ (0.0879,-180) [-180|179.9505] "deg" Vector__XXX
+ SG_ PedRider13_STATUS : 5|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ PedRider13_RangeRate : 39|11@0+ (0.0625,-64) [-64|63.9687] "m/s" Vector__XXX
+ SG_ PedRider13_Angle : 42|11@0+ (0.0625,-64) [-64|63.9687] "deg" Vector__XXX
+ SG_ PedRider13_Height : 59|4@0+ (0.1,0.5) [0.5|2] "m" Vector__XXX
+ SG_ PedRider13_CLASSIFICATION : 7|2@0+ (1,0) [0|3] "" Vector__XXX
+
+BO_ 269 Ped_Rider_14: 8 CLM
+ SG_ PedRider14_MSG_RC : 3|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ PedRider14_Range : 15|12@0+ (0.03125,0) [0|127.9687] "m" Vector__XXX
+ SG_ PedRider14_Heading_Angle : 19|12@0+ (0.0879,-180) [-180|179.9505] "deg" Vector__XXX
+ SG_ PedRider14_STATUS : 5|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ PedRider14_RangeRate : 39|11@0+ (0.0625,-64) [-64|63.9687] "m/s" Vector__XXX
+ SG_ PedRider14_Angle : 42|11@0+ (0.0625,-64) [-64|63.9687] "deg" Vector__XXX
+ SG_ PedRider14_Height : 59|4@0+ (0.1,0.5) [0.5|2] "m" Vector__XXX
+ SG_ PedRider14_CLASSIFICATION : 7|2@0+ (1,0) [0|3] "" Vector__XXX
+
+BO_ 270 Ped_Rider_15: 8 CLM
+ SG_ PedRider15_MSG_RC : 3|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ PedRider15_Range : 15|12@0+ (0.03125,0) [0|127.9687] "m" Vector__XXX
+ SG_ PedRider15_Heading_Angle : 19|12@0+ (0.0879,-180) [-180|179.9505] "deg" Vector__XXX
+ SG_ PedRider15_STATUS : 5|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ PedRider15_RangeRate : 39|11@0+ (0.0625,-64) [-64|63.9687] "m/s" Vector__XXX
+ SG_ PedRider15_Angle : 42|11@0+ (0.0625,-64) [-64|63.9687] "deg" Vector__XXX
+ SG_ PedRider15_Height : 59|4@0+ (0.1,0.5) [0.5|2] "m" Vector__XXX
+ SG_ PedRider15_CLASSIFICATION : 7|2@0+ (1,0) [0|3] "" Vector__XXX
+
+BO_ 271 Ped_Rider_16: 8 CLM
+ SG_ PedRider16_MSG_RC : 3|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ PedRider16_Range : 15|12@0+ (0.03125,0) [0|127.9687] "m" Vector__XXX
+ SG_ PedRider16_Heading_Angle : 19|12@0+ (0.0879,-180) [-180|179.9505] "deg" Vector__XXX
+ SG_ PedRider16_STATUS : 5|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ PedRider16_RangeRate : 39|11@0+ (0.0625,-64) [-64|63.9687] "m/s" Vector__XXX
+ SG_ PedRider16_Angle : 42|11@0+ (0.0625,-64) [-64|63.9687] "deg" Vector__XXX
+ SG_ PedRider16_Height : 59|4@0+ (0.1,0.5) [0.5|2] "m" Vector__XXX
+ SG_ PedRider16_CLASSIFICATION : 7|2@0+ (1,0) [0|3] "" Vector__XXX
+
+BO_ 257 Ped_Rider_2: 8 CLM
+ SG_ PedRider2_MSG_RC : 3|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ PedRider2_Range : 15|12@0+ (0.03125,0) [0|127.9687] "m" Vector__XXX
+ SG_ PedRider2_Heading_Angle : 19|12@0+ (0.0879,-180) [-180|179.9505] "deg" Vector__XXX
+ SG_ PedRider2_STATUS : 5|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ PedRider2_RangeRate : 39|11@0+ (0.0625,-64) [-64|63.9687] "m/s" Vector__XXX
+ SG_ PedRider2_Angle : 42|11@0+ (0.0625,-64) [-64|63.9687] "deg" Vector__XXX
+ SG_ PedRider2_Height : 59|4@0+ (0.1,0.5) [0.5|2] "m" Vector__XXX
+ SG_ PedRider2_CLASSIFICATION : 7|2@0+ (1,0) [0|3] "" Vector__XXX
+
+BO_ 258 Ped_Rider_3: 8 CLM
+ SG_ PedRider3_MSG_RC : 3|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ PedRider3_Range : 15|12@0+ (0.03125,0) [0|127.9687] "m" Vector__XXX
+ SG_ PedRider3_Heading_Angle : 19|12@0+ (0.0879,-180) [-180|179.9505] "deg" Vector__XXX
+ SG_ PedRider3_STATUS : 5|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ PedRider3_RangeRate : 39|11@0+ (0.0625,-64) [-64|63.9687] "m/s" Vector__XXX
+ SG_ PedRider3_Angle : 42|11@0+ (0.0625,-64) [-64|63.9687] "deg" Vector__XXX
+ SG_ PedRider3_Height : 59|4@0+ (0.1,0.5) [0.5|2] "m" Vector__XXX
+ SG_ PedRider3_CLASSIFICATION : 7|2@0+ (1,0) [0|3] "" Vector__XXX
+
+BO_ 259 Ped_Rider_4: 8 CLM
+ SG_ PedRider4_MSG_RC : 3|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ PedRider4_Range : 15|12@0+ (0.03125,0) [0|127.9687] "m" Vector__XXX
+ SG_ PedRider4_Heading_Angle : 19|12@0+ (0.0879,-180) [-180|179.9505] "deg" Vector__XXX
+ SG_ PedRider4_STATUS : 5|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ PedRider4_RangeRate : 39|11@0+ (0.0625,-64) [-64|63.9687] "m/s" Vector__XXX
+ SG_ PedRider4_Angle : 42|11@0+ (0.0625,-64) [-64|63.9687] "deg" Vector__XXX
+ SG_ PedRider4_Height : 59|4@0+ (0.1,0.5) [0.5|2] "m" Vector__XXX
+ SG_ PedRider4_CLASSIFICATION : 7|2@0+ (1,0) [0|3] "" Vector__XXX
+
+BO_ 260 Ped_Rider_5: 8 CLM
+ SG_ PedRider5_MSG_RC : 3|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ PedRider5_Range : 15|12@0+ (0.03125,0) [0|127.9687] "m" Vector__XXX
+ SG_ PedRider5_Heading_Angle : 19|12@0+ (0.0879,-180) [-180|179.9505] "deg" Vector__XXX
+ SG_ PedRider5_STATUS : 5|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ PedRider5_RangeRate : 39|11@0+ (0.0625,-64) [-64|63.9687] "m/s" Vector__XXX
+ SG_ PedRider5_Angle : 42|11@0+ (0.0625,-64) [-64|63.9687] "deg" Vector__XXX
+ SG_ PedRider5_Height : 59|4@0+ (0.1,0.5) [0.5|2] "m" Vector__XXX
+ SG_ PedRider5_CLASSIFICATION : 7|2@0+ (1,0) [0|3] "" Vector__XXX
+
+BO_ 261 Ped_Rider_6: 8 CLM
+ SG_ PedRider6_MSG_RC : 3|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ PedRider6_Range : 15|12@0+ (0.03125,0) [0|127.9687] "m" Vector__XXX
+ SG_ PedRider6_Heading_Angle : 19|12@0+ (0.0879,-180) [-180|179.9505] "deg" Vector__XXX
+ SG_ PedRider6_STATUS : 5|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ PedRider6_RangeRate : 39|11@0+ (0.0625,-64) [-64|63.9687] "m/s" Vector__XXX
+ SG_ PedRider6_Angle : 42|11@0+ (0.0625,-64) [-64|63.9687] "deg" Vector__XXX
+ SG_ PedRider6_Height : 59|4@0+ (0.1,0.5) [0.5|2] "m" Vector__XXX
+ SG_ PedRider6_CLASSIFICATION : 7|2@0+ (1,0) [0|3] "" Vector__XXX
+
+BO_ 262 Ped_Rider_7: 8 CLM
+ SG_ PedRider7_MSG_RC : 3|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ PedRider7_Range : 15|12@0+ (0.03125,0) [0|127.9687] "m" Vector__XXX
+ SG_ PedRider7_Heading_Angle : 19|12@0+ (0.0879,-180) [-180|179.9505] "deg" Vector__XXX
+ SG_ PedRider7_STATUS : 5|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ PedRider7_RangeRate : 39|11@0+ (0.0625,-64) [-64|63.9687] "m/s" Vector__XXX
+ SG_ PedRider7_Angle : 42|11@0+ (0.0625,-64) [-64|63.9687] "deg" Vector__XXX
+ SG_ PedRider7_Height : 59|4@0+ (0.1,0.5) [0.5|2] "m" Vector__XXX
+ SG_ PedRider7_CLASSIFICATION : 7|2@0+ (1,0) [0|3] "" Vector__XXX
+
+BO_ 263 Ped_Rider_8: 8 CLM
+ SG_ PedRider8_MSG_RC : 3|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ PedRider8_Range : 15|12@0+ (0.03125,0) [0|127.9687] "m" Vector__XXX
+ SG_ PedRider8_Heading_Angle : 19|12@0+ (0.0879,-180) [-180|179.9505] "deg" Vector__XXX
+ SG_ PedRider8_STATUS : 5|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ PedRider8_RangeRate : 39|11@0+ (0.0625,-64) [-64|63.9687] "m/s" Vector__XXX
+ SG_ PedRider8_Angle : 42|11@0+ (0.0625,-64) [-64|63.9687] "deg" Vector__XXX
+ SG_ PedRider8_Height : 59|4@0+ (0.1,0.5) [0.5|2] "m" Vector__XXX
+ SG_ PedRider8_CLASSIFICATION : 7|2@0+ (1,0) [0|3] "" Vector__XXX
+
+BO_ 264 Ped_Rider_9: 8 CLM
+ SG_ PedRider9_MSG_RC : 3|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ PedRider9_Range : 15|12@0+ (0.03125,0) [0|127.9687] "m" Vector__XXX
+ SG_ PedRider9_Heading_Angle : 19|12@0+ (0.0879,-180) [-180|179.9505] "deg" Vector__XXX
+ SG_ PedRider9_STATUS : 5|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ PedRider9_RangeRate : 39|11@0+ (0.0625,-64) [-64|63.9687] "m/s" Vector__XXX
+ SG_ PedRider9_Angle : 42|11@0+ (0.0625,-64) [-64|63.9687] "deg" Vector__XXX
+ SG_ PedRider9_Height : 59|4@0+ (0.1,0.5) [0.5|2] "m" Vector__XXX
+ SG_ PedRider9_CLASSIFICATION : 7|2@0+ (1,0) [0|3] "" Vector__XXX
+
+BO_ 657 Vehicle_10A: 8 CLM
+ SG_ Vehicle10A_MSG_RC : 3|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ Vehicle10_Range : 15|13@0+ (0.03125,0) [0|255] "m" Vector__XXX
+ SG_ Vehicle10_Angle : 18|11@0+ (0.0625,-64) [-64|63.9687] "deg" Vector__XXX
+ SG_ Vehicle10_Status : 6|3@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ Vehicle10_RangeRate : 39|12@0+ (0.0625,-128) [-128|127.9375] "m/s" Vector__XXX
+ SG_ Vehicle10_HeadingAngle : 43|12@0+ (0.0879,-180) [-180|179.9505] "deg" Vector__XXX
+
+BO_ 658 Vehicle_10B: 6 CLM
+ SG_ Vehicle10B_MSG_RC : 3|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ Vehicle10_Width : 15|4@0+ (0.1,1.6) [1.6|3.1] "m" Vector__XXX
+ SG_ Vehicle10_Height : 19|4@0+ (0.3,0) [0|4.5] "m" Vector__XXX
+ SG_ Vehicle10_Type : 34|3@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ Vehicle10_TurnRadius : 31|13@0+ (0.625,-2560) [-2560|2559.375] "m" Vector__XXX
+ SG_ Vehicle10_BrLightIndicator : 5|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ Vehicle10_TurnIndicator : 7|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ Vehicle10_Length : 11|4@0+ (1,0) [0|15] "m" Vector__XXX
+
+BO_ 673 Vehicle_11A: 8 CLM
+ SG_ Vehicle11A_MSG_RC : 3|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ Vehicle11_Range : 15|13@0+ (0.03125,0) [0|255] "m" Vector__XXX
+ SG_ Vehicle11_Angle : 18|11@0+ (0.0625,-64) [-64|63.9687] "deg" Vector__XXX
+ SG_ Vehicle11_Status : 6|3@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ Vehicle11_RangeRate : 39|12@0+ (0.0625,-128) [-128|127.9375] "m/s" Vector__XXX
+ SG_ Vehicle11_HeadingAngle : 43|12@0+ (0.0879,-180) [-180|179.9505] "deg" Vector__XXX
+
+BO_ 674 Vehicle_11B: 6 CLM
+ SG_ Vehicle11B_MSG_RC : 3|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ Vehicle11_Width : 15|4@0+ (0.1,1.6) [1.6|3.1] "m" Vector__XXX
+ SG_ Vehicle11_Height : 19|4@0+ (0.3,0) [0|4.5] "m" Vector__XXX
+ SG_ Vehicle11_Type : 34|3@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ Vehicle11_TurnRadius : 31|13@0+ (0.625,-2560) [-2560|2559.375] "m" Vector__XXX
+ SG_ Vehicle11_BrLightIndicator : 5|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ Vehicle11_TurnIndicator : 7|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ Vehicle11_Length : 11|4@0+ (1,0) [0|15] "m" Vector__XXX
+
+BO_ 689 Vehicle_12A: 8 CLM
+ SG_ Vehicle12A_MSG_RC : 3|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ Vehicle12_Range : 15|13@0+ (0.03125,0) [0|255] "m" Vector__XXX
+ SG_ Vehicle12_Angle : 18|11@0+ (0.0625,-64) [-64|63.9687] "deg" Vector__XXX
+ SG_ Vehicle12_Status : 6|3@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ Vehicle12_RangeRate : 39|12@0+ (0.0625,-128) [-128|127.9375] "m/s" Vector__XXX
+ SG_ Vehicle12_HeadingAngle : 43|12@0+ (0.0879,-180) [-180|179.9505] "deg" Vector__XXX
+
+BO_ 690 Vehicle_12B: 6 CLM
+ SG_ Vehicle12B_MSG_RC : 3|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ Vehicle12_Width : 15|4@0+ (0.1,1.6) [1.6|3.1] "m" Vector__XXX
+ SG_ Vehicle12_Height : 19|4@0+ (0.3,0) [0|4.5] "m" Vector__XXX
+ SG_ Vehicle12_Type : 34|3@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ Vehicle12_TurnRadius : 31|13@0+ (0.625,-2560) [-2560|2559.375] "m" Vector__XXX
+ SG_ Vehicle12_BrLightIndicator : 5|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ Vehicle12_TurnIndicator : 7|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ Vehicle12_Length : 11|4@0+ (1,0) [0|15] "m" Vector__XXX
+
+BO_ 705 Vehicle_13A: 8 CLM
+ SG_ Vehicle13A_MSG_RC : 3|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ Vehicle13_Range : 15|13@0+ (0.03125,0) [0|255] "m" Vector__XXX
+ SG_ Vehicle13_Angle : 18|11@0+ (0.0625,-64) [-64|63.9687] "deg" Vector__XXX
+ SG_ Vehicle13_Status : 6|3@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ Vehicle13_RangeRate : 39|12@0+ (0.0625,-128) [-128|127.9375] "m/s" Vector__XXX
+ SG_ Vehicle13_HeadingAngle : 43|12@0+ (0.0879,-180) [-180|179.9505] "deg" Vector__XXX
+
+BO_ 706 Vehicle_13B: 6 CLM
+ SG_ Vehicle13B_MSG_RC : 3|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ Vehicle13_Width : 15|4@0+ (0.1,1.6) [1.6|3.1] "m" Vector__XXX
+ SG_ Vehicle13_Height : 19|4@0+ (0.3,0) [0|4.5] "m" Vector__XXX
+ SG_ Vehicle13_Type : 34|3@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ Vehicle13_TurnRadius : 31|13@0+ (0.625,-2560) [-2560|2559.375] "m" Vector__XXX
+ SG_ Vehicle13_BrLightIndicator : 5|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ Vehicle13_TurnIndicator : 7|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ Vehicle13_Length : 11|4@0+ (1,0) [0|15] "m" Vector__XXX
+
+BO_ 721 Vehicle_14A: 8 CLM
+ SG_ Vehicle14A_MSG_RC : 3|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ Vehicle14_Range : 15|13@0+ (0.03125,0) [0|255] "m" Vector__XXX
+ SG_ Vehicle14_Angle : 18|11@0+ (0.0625,-64) [-64|63.9687] "deg" Vector__XXX
+ SG_ Vehicle14_Status : 6|3@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ Vehicle14_RangeRate : 39|12@0+ (0.0625,-128) [-128|127.9375] "m/s" Vector__XXX
+ SG_ Vehicle14_HeadingAngle : 43|12@0+ (0.0879,-180) [-180|179.9505] "deg" Vector__XXX
+
+BO_ 722 Vehicle_14B: 6 CLM
+ SG_ Vehicle14B_MSG_RC : 3|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ Vehicle14_Width : 15|4@0+ (0.1,1.6) [1.6|3.1] "m" Vector__XXX
+ SG_ Vehicle14_Height : 19|4@0+ (0.3,0) [0|4.5] "m" Vector__XXX
+ SG_ Vehicle14_Type : 34|3@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ Vehicle14_TurnRadius : 31|13@0+ (0.625,-2560) [-2560|2559.375] "m" Vector__XXX
+ SG_ Vehicle14_BrLightIndicator : 5|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ Vehicle14_TurnIndicator : 7|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ Vehicle14_Length : 11|4@0+ (1,0) [0|15] "m" Vector__XXX
+
+BO_ 737 Vehicle_15A: 8 CLM
+ SG_ Vehicle15A_MSG_RC : 3|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ Vehicle15_Range : 15|13@0+ (0.03125,0) [0|255] "m" Vector__XXX
+ SG_ Vehicle15_Angle : 18|11@0+ (0.0625,-64) [-64|63.9687] "deg" Vector__XXX
+ SG_ Vehicle15_Status : 6|3@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ Vehicle15_RangeRate : 39|12@0+ (0.0625,-128) [-128|127.9375] "m/s" Vector__XXX
+ SG_ Vehicle15_HeadingAngle : 43|12@0+ (0.0879,-180) [-180|179.9505] "deg" Vector__XXX
+
+BO_ 738 Vehicle_15B: 6 CLM
+ SG_ Vehicle15B_MSG_RC : 3|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ Vehicle15_Width : 15|4@0+ (0.1,1.6) [1.6|3.1] "m" Vector__XXX
+ SG_ Vehicle15_Height : 19|4@0+ (0.3,0) [0|4.5] "m" Vector__XXX
+ SG_ Vehicle15_Type : 34|3@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ Vehicle15_TurnRadius : 31|13@0+ (0.625,-2560) [-2560|2559.375] "m" Vector__XXX
+ SG_ Vehicle15_BrLightIndicator : 5|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ Vehicle15_TurnIndicator : 7|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ Vehicle15_Length : 11|4@0+ (1,0) [0|15] "m" Vector__XXX
+
+BO_ 753 Vehicle_16A: 8 CLM
+ SG_ Vehicle16A_MSG_RC : 3|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ Vehicle16_Range : 15|13@0+ (0.03125,0) [0|255] "m" Vector__XXX
+ SG_ Vehicle16_Angle : 18|11@0+ (0.0625,-64) [-64|63.9687] "deg" Vector__XXX
+ SG_ Vehicle16_Status : 6|3@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ Vehicle16_RangeRate : 39|12@0+ (0.0625,-128) [-128|127.9375] "m/s" Vector__XXX
+ SG_ Vehicle16_HeadingAngle : 43|12@0+ (0.0879,-180) [-180|179.9505] "deg" Vector__XXX
+
+BO_ 754 Vehicle_16B: 6 CLM
+ SG_ Vehicle16B_MSG_RC : 3|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ Vehicle16_Width : 15|4@0+ (0.1,1.6) [1.6|3.1] "m" Vector__XXX
+ SG_ Vehicle16_Height : 19|4@0+ (0.3,0) [0|4.5] "m" Vector__XXX
+ SG_ Vehicle16_Type : 34|3@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ Vehicle16_TurnRadius : 31|13@0+ (0.625,-2560) [-2560|2559.375] "m" Vector__XXX
+ SG_ Vehicle16_BrLightIndicator : 5|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ Vehicle16_TurnIndicator : 7|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ Vehicle16_Length : 11|4@0+ (1,0) [0|15] "m" Vector__XXX
+
+BO_ 513 Vehicle_1A: 8 CLM
+ SG_ Vehicle1A_MSG_RC : 3|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ Vehicle1_Range : 15|13@0+ (0.03125,0) [0|255] "m" Vector__XXX
+ SG_ Vehicle1_Angle : 18|11@0+ (0.0625,-64) [-64|63.9687] "deg" Vector__XXX
+ SG_ Vehicle1_Status : 6|3@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ Vehicle1_RangeRate : 39|12@0+ (0.0625,-128) [-128|127.9375] "m/s" Vector__XXX
+ SG_ Vehicle1_HeadingAngle : 43|12@0+ (0.0879,-180) [-180|179.9505] "deg" Vector__XXX
+
+BO_ 514 Vehicle_1B: 6 CLM
+ SG_ Vehicle1B_MSG_RC : 3|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ Vehicle1_Width : 15|4@0+ (0.1,1.6) [1.6|3.1] "m" Vector__XXX
+ SG_ Vehicle1_Height : 19|4@0+ (0.3,0) [0|4.5] "m" Vector__XXX
+ SG_ Vehicle1_Type : 34|3@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ Vehicle1_TurnRadius : 31|13@0+ (0.625,-2560) [-2560|2559.375] "m" Vector__XXX
+ SG_ Vehicle1_BrLightIndicator : 5|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ Vehicle1_TurnIndicator : 7|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ Vehicle1_Length : 11|4@0+ (1,0) [0|15] "m" Vector__XXX
+
+BO_ 529 Vehicle_2A: 8 CLM
+ SG_ Vehicle2A_MSG_RC : 3|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ Vehicle2_Range : 15|13@0+ (0.03125,0) [0|255] "m" Vector__XXX
+ SG_ Vehicle2_Angle : 18|11@0+ (0.0625,-64) [-64|63.9687] "deg" Vector__XXX
+ SG_ Vehicle2_Status : 6|3@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ Vehicle2_RangeRate : 39|12@0+ (0.0625,-128) [-128|127.9375] "m/s" Vector__XXX
+ SG_ Vehicle2_HeadingAngle : 43|12@0+ (0.0879,-180) [-180|179.9505] "deg" Vector__XXX
+
+BO_ 530 Vehicle_2B: 6 CLM
+ SG_ Vehicle2B_MSG_RC : 3|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ Vehicle2_Width : 15|4@0+ (0.1,1.6) [1.6|3.1] "m" Vector__XXX
+ SG_ Vehicle2_Height : 19|4@0+ (0.3,0) [0|4.5] "m" Vector__XXX
+ SG_ Vehicle2_Type : 34|3@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ Vehicle2_TurnRadius : 31|13@0+ (0.625,-2560) [-2560|2559.375] "m" Vector__XXX
+ SG_ Vehicle2_BrLightIndicator : 5|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ Vehicle2_TurnIndicator : 7|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ Vehicle2_Length : 11|4@0+ (1,0) [0|15] "m" Vector__XXX
+
+BO_ 545 Vehicle_3A: 8 CLM
+ SG_ Vehicle3A_MSG_RC : 3|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ Vehicle3_Range : 15|13@0+ (0.03125,0) [0|255] "m" Vector__XXX
+ SG_ Vehicle3_Angle : 18|11@0+ (0.0625,-64) [-64|63.9687] "deg" Vector__XXX
+ SG_ Vehicle3_Status : 6|3@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ Vehicle3_RangeRate : 39|12@0+ (0.0625,-128) [-128|127.9375] "m/s" Vector__XXX
+ SG_ Vehicle3_HeadingAngle : 43|12@0+ (0.0879,-180) [-180|179.9505] "deg" Vector__XXX
+
+BO_ 546 Vehicle_3B: 6 CLM
+ SG_ Vehicle3B_MSG_RC : 3|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ Vehicle3_Width : 15|4@0+ (0.1,1.6) [1.6|3.1] "m" Vector__XXX
+ SG_ Vehicle3_Height : 19|4@0+ (0.3,0) [0|4.5] "m" Vector__XXX
+ SG_ Vehicle3_Type : 34|3@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ Vehicle3_TurnRadius : 31|13@0+ (0.625,-2560) [-2560|2559.375] "m" Vector__XXX
+ SG_ Vehicle3_BrLightIndicator : 5|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ Vehicle3_TurnIndicator : 7|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ Vehicle3_Length : 11|4@0+ (1,0) [0|15] "m" Vector__XXX
+
+BO_ 561 Vehicle_4A: 8 CLM
+ SG_ Vehicle4A_MSG_RC : 3|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ Vehicle4_Range : 15|13@0+ (0.03125,0) [0|255] "m" Vector__XXX
+ SG_ Vehicle4_Angle : 18|11@0+ (0.0625,-64) [-64|63.9687] "deg" Vector__XXX
+ SG_ Vehicle4_Status : 6|3@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ Vehicle4_RangeRate : 39|12@0+ (0.0625,-128) [-128|127.9375] "m/s" Vector__XXX
+ SG_ Vehicle4_HeadingAngle : 43|12@0+ (0.0879,-180) [-180|179.9505] "deg" Vector__XXX
+
+BO_ 562 Vehicle_4B: 6 CLM
+ SG_ Vehicle4B_MSG_RC : 3|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ Vehicle4_Width : 15|4@0+ (0.1,1.6) [1.6|3.1] "m" Vector__XXX
+ SG_ Vehicle4_Height : 19|4@0+ (0.3,0) [0|4.5] "m" Vector__XXX
+ SG_ Vehicle4_Type : 34|3@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ Vehicle4_TurnRadius : 31|13@0+ (0.625,-2560) [-2560|2559.375] "m" Vector__XXX
+ SG_ Vehicle4_BrLightIndicator : 5|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ Vehicle4_TurnIndicator : 7|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ Vehicle4_Length : 11|4@0+ (1,0) [0|15] "m" Vector__XXX
+
+BO_ 577 Vehicle_5A: 8 CLM
+ SG_ Vehicle5A_MSG_RC : 3|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ Vehicle5_Range : 15|13@0+ (0.03125,0) [0|255] "m" Vector__XXX
+ SG_ Vehicle5_Angle : 18|11@0+ (0.0625,-64) [-64|63.9687] "deg" Vector__XXX
+ SG_ Vehicle5_Status : 6|3@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ Vehicle5_RangeRate : 39|12@0+ (0.0625,-128) [-128|127.9375] "m/s" Vector__XXX
+ SG_ Vehicle5_HeadingAngle : 43|12@0+ (0.0879,-180) [-180|179.9505] "deg" Vector__XXX
+
+BO_ 578 Vehicle_5B: 6 CLM
+ SG_ Vehicle5B_MSG_RC : 3|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ Vehicle5_Width : 15|4@0+ (0.1,1.6) [1.6|3.1] "m" Vector__XXX
+ SG_ Vehicle5_Height : 19|4@0+ (0.3,0) [0|4.5] "m" Vector__XXX
+ SG_ Vehicle5_Type : 34|3@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ Vehicle5_TurnRadius : 31|13@0+ (0.625,-2560) [-2560|2559.375] "m" Vector__XXX
+ SG_ Vehicle5_BrLightIndicator : 5|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ Vehicle5_TurnIndicator : 7|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ Vehicle5_Length : 11|4@0+ (1,0) [0|15] "m" Vector__XXX
+
+BO_ 593 Vehicle_6A: 8 CLM
+ SG_ Vehicle6A_MSG_RC : 3|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ Vehicle6_Range : 15|13@0+ (0.03125,0) [0|255] "m" Vector__XXX
+ SG_ Vehicle6_Angle : 18|11@0+ (0.0625,-64) [-64|63.9687] "deg" Vector__XXX
+ SG_ Vehicle6_Status : 6|3@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ Vehicle6_RangeRate : 39|12@0+ (0.0625,-128) [-128|127.9375] "m/s" Vector__XXX
+ SG_ Vehicle6_HeadingAngle : 43|12@0+ (0.0879,-180) [-180|179.9505] "deg" Vector__XXX
+
+BO_ 594 Vehicle_6B: 6 CLM
+ SG_ Vehicle6B_MSG_RC : 3|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ Vehicle6_Width : 15|4@0+ (0.1,1.6) [1.6|3.1] "m" Vector__XXX
+ SG_ Vehicle6_Height : 19|4@0+ (0.3,0) [0|4.5] "m" Vector__XXX
+ SG_ Vehicle6_Type : 34|3@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ Vehicle6_TurnRadius : 31|13@0+ (0.625,-2560) [-2560|2559.375] "m" Vector__XXX
+ SG_ Vehicle6_BrLightIndicator : 5|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ Vehicle6_TurnIndicator : 7|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ Vehicle6_Length : 11|4@0+ (1,0) [0|15] "m" Vector__XXX
+
+BO_ 609 Vehicle_7A: 8 CLM
+ SG_ Vehicle7A_MSG_RC : 3|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ Vehicle7_Range : 15|13@0+ (0.03125,0) [0|255] "m" Vector__XXX
+ SG_ Vehicle7_Angle : 18|11@0+ (0.0625,-64) [-64|63.9687] "deg" Vector__XXX
+ SG_ Vehicle7_Status : 6|3@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ Vehicle7_RangeRate : 39|12@0+ (0.0625,-128) [-128|127.9375] "m/s" Vector__XXX
+ SG_ Vehicle7_HeadingAngle : 43|12@0+ (0.0879,-180) [-180|179.9505] "deg" Vector__XXX
+
+BO_ 610 Vehicle_7B: 6 CLM
+ SG_ Vehicle7B_MSG_RC : 3|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ Vehicle7_Width : 15|4@0+ (0.1,1.6) [1.6|3.1] "m" Vector__XXX
+ SG_ Vehicle7_Height : 19|4@0+ (0.3,0) [0|4.5] "m" Vector__XXX
+ SG_ Vehicle7_Type : 34|3@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ Vehicle7_TurnRadius : 31|13@0+ (0.625,-2560) [-2560|2559.375] "m" Vector__XXX
+ SG_ Vehicle7_BrLightIndicator : 5|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ Vehicle7_TurnIndicator : 7|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ Vehicle7_Length : 11|4@0+ (1,0) [0|15] "m" Vector__XXX
+
+BO_ 625 Vehicle_8A: 8 CLM
+ SG_ Vehicle8A_MSG_RC : 3|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ Vehicle8_Range : 15|13@0+ (0.03125,0) [0|255] "m" Vector__XXX
+ SG_ Vehicle8_Angle : 18|11@0+ (0.0625,-64) [-64|63.9687] "deg" Vector__XXX
+ SG_ Vehicle8_Status : 6|3@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ Vehicle8_RangeRate : 39|12@0+ (0.0625,-128) [-128|127.9375] "m/s" Vector__XXX
+ SG_ Vehicle8_HeadingAngle : 43|12@0+ (0.0879,-180) [-180|179.9505] "deg" Vector__XXX
+
+BO_ 626 Vehicle_8B: 6 CLM
+ SG_ Vehicle8B_MSG_RC : 3|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ Vehicle8_Width : 15|4@0+ (0.1,1.6) [1.6|3.1] "m" Vector__XXX
+ SG_ Vehicle8_Height : 19|4@0+ (0.3,0) [0|4.5] "m" Vector__XXX
+ SG_ Vehicle8_Type : 34|3@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ Vehicle8_TurnRadius : 31|13@0+ (0.625,-2560) [-2560|2559.375] "m" Vector__XXX
+ SG_ Vehicle8_BrLightIndicator : 5|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ Vehicle8_TurnIndicator : 7|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ Vehicle8_Length : 11|4@0+ (1,0) [0|15] "m" Vector__XXX
+
+BO_ 641 Vehicle_9A: 8 CLM
+ SG_ Vehicle9A_MSG_RC : 3|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ Vehicle9_Range : 15|13@0+ (0.03125,0) [0|255] "m" Vector__XXX
+ SG_ Vehicle9_Angle : 18|11@0+ (0.0625,-64) [-64|63.9687] "deg" Vector__XXX
+ SG_ Vehicle9_Status : 6|3@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ Vehicle9_RangeRate : 39|12@0+ (0.0625,-128) [-128|127.9375] "m/s" Vector__XXX
+ SG_ Vehicle9_HeadingAngle : 43|12@0+ (0.0879,-180) [-180|179.9505] "deg" Vector__XXX
+
+BO_ 642 Vehicle_9B: 6 CLM
+ SG_ Vehicle9B_MSG_RC : 3|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ Vehicle9_Width : 15|4@0+ (0.1,1.6) [1.6|3.1] "m" Vector__XXX
+ SG_ Vehicle9_Height : 19|4@0+ (0.3,0) [0|4.5] "m" Vector__XXX
+ SG_ Vehicle9_Type : 34|3@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ Vehicle9_TurnRadius : 31|13@0+ (0.625,-2560) [-2560|2559.375] "m" Vector__XXX
+ SG_ Vehicle9_BrLightIndicator : 5|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ Vehicle9_TurnIndicator : 7|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ Vehicle9_Length : 11|4@0+ (1,0) [0|15] "m" Vector__XXX
+
+
+
+CM_ " ";
+CM_ BO_ 3221225472 "This is a message for not used signals, created by Vector CANdb++ DBC OLE DB Provider.";
+CM_ SG_ 3221225472 HSLR_Dist "The drive distance of High-Speed Limit range ";
+CM_ SG_ 3221225472 SPDLIMBORD_VALID "0:NULL
+1:valid";
+CM_ SG_ 3221225472 StopZebra_MSG_RC "message rolling count";
+CM_ SG_ 3221225472 StopLine_r "x = r*cosθ,y = r*sinθ";
+CM_ SG_ 3221225472 StopLine_Angle "x = r*cosθ,y = r*sinθ";
+CM_ SG_ 3221225472 HighSpeedLimit_Stu "0:No high speed limit flag
+1:high speed limit keep
+2:high speed limit remove";
+CM_ SG_ 1567 IFVSFaultStu "0:Null
+1:Fault";
+CM_ SG_ 1567 SpeedSigStu "0:Null
+1:Fault";
+CM_ SG_ 1567 YawrateSigStu "0:Null
+1:Fault";
+CM_ SG_ 1567 SteerWheelSigStu "0:Null
+1:Fault";
+CM_ SG_ 1567 TurnSigStu "0:Null
+1:Fault";
+CM_ SG_ 1567 BrakeSigStu "0:Null
+1:Fault";
+CM_ SG_ 1280 Camera_Not_Work "0:Not work
+1:working";
+CM_ SG_ 1280 HIGHLIMBORD_VALID "0:NULL
+1:VALID";
+CM_ SG_ 1280 SPDLIMBORD_VALID "0:NULL
+1:valid";
+CM_ SG_ 1280 LDW_WARNING "0:no warn, 1: left warning , 2: right warning , 3: no defined";
+CM_ SG_ 1280 FCW_WARNOBJ_NEARSTATUS "0:none, 1:near, 2:mid, 3:far";
+CM_ SG_ 1280 FCW_WARNOBJ_VAL "0:no obj , 1: obj valid";
+CM_ SG_ 1360 Night_Mode "0:day
+1:night";
+CM_ SG_ 1360 PedRider_CIPV "Passer and Rider Target ID, only 0 throught 16 used but full byte used for simplified packing";
+CM_ SG_ 1360 Vehicle_CIPV "Vehicle Target ID, only 0 throught 16 used but full byte used for simplified packing";
+CM_ SG_ 785 Lane1A_MSG_RC "message rolling count";
+CM_ SG_ 785 Lane1_N_A0 "A[0]+A[1]*x+A[2]*(x^2)/2+A[3]*(x^3)/6";
+CM_ SG_ 785 Lane1_St_Color "Lane Color";
+CM_ SG_ 786 Lane1B_MSG_RC "message rolling count";
+CM_ SG_ 786 Lane1_Type "Lane Type";
+CM_ SG_ 786 Lane1_Valid_End_Dist "end distance in x direction";
+CM_ SG_ 786 Lane1_Valid_Start_Dist "start distance in x direction";
+CM_ SG_ 801 Lane2A_MSG_RC "message rolling count";
+CM_ SG_ 801 Lane2_N_A0 "A[0]+A[1]*x+A[2]*(x^2)/2+A[3]*(x^3)/6";
+CM_ SG_ 801 Lane2_St_Color "Lane Color";
+CM_ SG_ 802 Lane2B_MSG_RC "message rolling count";
+CM_ SG_ 802 Lane2_Type "Lane Type";
+CM_ SG_ 802 Lane2_Valid_End_Dist "end distance in x direction";
+CM_ SG_ 802 Lane2_Valid_Start_Dist "start distance in x direction";
+CM_ SG_ 817 Lane3A_MSG_RC "message rolling count";
+CM_ SG_ 817 Lane3_N_A0 "A[0]+A[1]*x+A[2]*(x^2)/2+A[3]*(x^3)/6";
+CM_ SG_ 817 Lane3_St_Color "Lane Color";
+CM_ SG_ 818 Lane3B_MSG_RC "message rolling count";
+CM_ SG_ 818 Lane3_Type "Lane Type";
+CM_ SG_ 818 Lane3_Valid_End_Dist "end distance in x direction";
+CM_ SG_ 818 Lane3_Valid_Start_Dist "start distance in x direction";
+CM_ SG_ 833 Lane4A_MSG_RC "message rolling count";
+CM_ SG_ 833 Lane4_N_A0 "A[0]+A[1]*x+A[2]*(x^2)/2+A[3]*(x^3)/6";
+CM_ SG_ 833 Lane4_St_Color "Lane Color";
+CM_ SG_ 834 Lane4B_MSG_RC "message rolling count";
+CM_ SG_ 834 Lane4_Type "Lane Type";
+CM_ SG_ 834 Lane4_Valid_End_Dist "end distance in x direction";
+CM_ SG_ 834 Lane4_Valid_Start_Dist "start distance in x direction";
+CM_ SG_ 849 Lane5A_MSG_RC "message rolling count";
+CM_ SG_ 849 Lane5_N_A0 "A[0]+A[1]*x+A[2]*(x^2)/2+A[3]*(x^3)/6";
+CM_ SG_ 849 Lane5_St_Color "Lane Color";
+CM_ SG_ 850 Lane5B_MSG_RC "message rolling count";
+CM_ SG_ 850 Lane5_Type "Lane Type";
+CM_ SG_ 850 Lane5_Valid_End_Dist "end distance in x direction";
+CM_ SG_ 850 Lane5_Valid_Start_Dist "start distance in x direction";
+CM_ SG_ 865 Lane6A_MSG_RC "message rolling count";
+CM_ SG_ 865 Lane6_N_A0 "A[0]+A[1]*x+A[2]*(x^2)/2+A[3]*(x^3)/6";
+CM_ SG_ 865 Lane6_St_Color "Lane Color";
+CM_ SG_ 866 Lane6B_MSG_RC "message rolling count";
+CM_ SG_ 866 Lane6_Type "Lane Type";
+CM_ SG_ 866 Lane6_Valid_End_Dist "end distance in x direction";
+CM_ SG_ 866 Lane6_Valid_Start_Dist "start distance in x direction";
+CM_ SG_ 881 Lane7A_MSG_RC "message rolling count";
+CM_ SG_ 881 Lane7_N_A0 "A[0]+A[1]*x+A[2]*(x^2)/2+A[3]*(x^3)/6";
+CM_ SG_ 881 Lane7_St_Color "Lane Color";
+CM_ SG_ 882 Lane7B_MSG_RC "message rolling count";
+CM_ SG_ 882 Lane7_Type "Lane Type";
+CM_ SG_ 882 Lane7_Valid_End_Dist "end distance in x direction";
+CM_ SG_ 882 Lane7_Valid_Start_Dist "start distance in x direction";
+CM_ SG_ 897 Lane8A_MSG_RC "message rolling count";
+CM_ SG_ 897 Lane8_N_A0 "A[0]+A[1]*x+A[2]*(x^2)/2+A[3]*(x^3)/6";
+CM_ SG_ 897 Lane8_St_Color "Lane Color";
+CM_ SG_ 898 Lane8B_MSG_RC "message rolling count";
+CM_ SG_ 898 Lane8_Type "Lane Type";
+CM_ SG_ 898 Lane8_Valid_End_Dist "end distance in x direction";
+CM_ SG_ 898 Lane8_Valid_Start_Dist "start distance in x direction";
+CM_ SG_ 256 PedRider1_MSG_RC "message rolling count";
+CM_ SG_ 265 PedRider10_MSG_RC "message rolling count";
+CM_ SG_ 266 PedRider11_MSG_RC "message rolling count";
+CM_ SG_ 267 PedRider12_MSG_RC "message rolling count";
+CM_ SG_ 268 PedRider13_MSG_RC "message rolling count";
+CM_ SG_ 269 PedRider14_MSG_RC "message rolling count";
+CM_ SG_ 270 PedRider15_MSG_RC "message rolling count";
+CM_ SG_ 271 PedRider16_MSG_RC "message rolling count";
+CM_ SG_ 257 PedRider2_MSG_RC "message rolling count";
+CM_ SG_ 258 PedRider3_MSG_RC "message rolling count";
+CM_ SG_ 259 PedRider4_MSG_RC "message rolling count";
+CM_ SG_ 260 PedRider5_MSG_RC "message rolling count";
+CM_ SG_ 261 PedRider6_MSG_RC "message rolling count";
+CM_ SG_ 262 PedRider7_MSG_RC "message rolling count";
+CM_ SG_ 263 PedRider8_MSG_RC "message rolling count";
+CM_ SG_ 264 PedRider9_MSG_RC "message rolling count";
+CM_ SG_ 657 Vehicle10A_MSG_RC "message rolling count";
+CM_ SG_ 658 Vehicle10B_MSG_RC "message rolling count";
+CM_ SG_ 658 Vehicle10_BrLightIndicator "Brake Light Indicator";
+CM_ SG_ 658 Vehicle10_TurnIndicator "Turn Indicator";
+CM_ SG_ 673 Vehicle11A_MSG_RC "message rolling count";
+CM_ SG_ 674 Vehicle11B_MSG_RC "message rolling count";
+CM_ SG_ 674 Vehicle11_BrLightIndicator "Brake Light Indicator";
+CM_ SG_ 674 Vehicle11_TurnIndicator "Turn Indicator";
+CM_ SG_ 689 Vehicle12A_MSG_RC "message rolling count";
+CM_ SG_ 690 Vehicle12B_MSG_RC "message rolling count";
+CM_ SG_ 690 Vehicle12_BrLightIndicator "Brake Light Indicator";
+CM_ SG_ 690 Vehicle12_TurnIndicator "Turn Indicator";
+CM_ SG_ 705 Vehicle13A_MSG_RC "message rolling count";
+CM_ SG_ 706 Vehicle13B_MSG_RC "message rolling count";
+CM_ SG_ 706 Vehicle13_BrLightIndicator "Brake Light Indicator";
+CM_ SG_ 706 Vehicle13_TurnIndicator "Turn Indicator";
+CM_ SG_ 721 Vehicle14A_MSG_RC "message rolling count";
+CM_ SG_ 722 Vehicle14B_MSG_RC "message rolling count";
+CM_ SG_ 722 Vehicle14_BrLightIndicator "Brake Light Indicator";
+CM_ SG_ 722 Vehicle14_TurnIndicator "Turn Indicator";
+CM_ SG_ 737 Vehicle15A_MSG_RC "message rolling count";
+CM_ SG_ 738 Vehicle15B_MSG_RC "message rolling count";
+CM_ SG_ 738 Vehicle15_BrLightIndicator "Brake Light Indicator";
+CM_ SG_ 738 Vehicle15_TurnIndicator "Turn Indicator";
+CM_ SG_ 753 Vehicle16A_MSG_RC "message rolling count";
+CM_ SG_ 754 Vehicle16B_MSG_RC "message rolling count";
+CM_ SG_ 754 Vehicle16_BrLightIndicator "Brake Light Indicator";
+CM_ SG_ 754 Vehicle16_TurnIndicator "Turn Indicator";
+CM_ SG_ 513 Vehicle1A_MSG_RC "message rolling count";
+CM_ SG_ 514 Vehicle1B_MSG_RC "message rolling count";
+CM_ SG_ 514 Vehicle1_BrLightIndicator "Brake Light Indicator";
+CM_ SG_ 514 Vehicle1_TurnIndicator "Turn Indicator";
+CM_ SG_ 529 Vehicle2A_MSG_RC "message rolling count";
+CM_ SG_ 530 Vehicle2B_MSG_RC "message rolling count";
+CM_ SG_ 530 Vehicle2_BrLightIndicator "Brake Light Indicator";
+CM_ SG_ 530 Vehicle2_TurnIndicator "Turn Indicator";
+CM_ SG_ 545 Vehicle3A_MSG_RC "message rolling count";
+CM_ SG_ 546 Vehicle3B_MSG_RC "message rolling count";
+CM_ SG_ 546 Vehicle3_BrLightIndicator "Brake Light Indicator";
+CM_ SG_ 546 Vehicle3_TurnIndicator "Turn Indicator";
+CM_ SG_ 561 Vehicle4A_MSG_RC "message rolling count";
+CM_ SG_ 562 Vehicle4B_MSG_RC "message rolling count";
+CM_ SG_ 562 Vehicle4_BrLightIndicator "Brake Light Indicator";
+CM_ SG_ 562 Vehicle4_TurnIndicator "Turn Indicator";
+CM_ SG_ 577 Vehicle5A_MSG_RC "message rolling count";
+CM_ SG_ 578 Vehicle5B_MSG_RC "message rolling count";
+CM_ SG_ 578 Vehicle5_BrLightIndicator "Brake Light Indicator";
+CM_ SG_ 578 Vehicle5_TurnIndicator "Turn Indicator";
+CM_ SG_ 593 Vehicle6A_MSG_RC "message rolling count";
+CM_ SG_ 594 Vehicle6B_MSG_RC "message rolling count";
+CM_ SG_ 594 Vehicle6_BrLightIndicator "Brake Light Indicator";
+CM_ SG_ 594 Vehicle6_TurnIndicator "Turn Indicator";
+CM_ SG_ 609 Vehicle7A_MSG_RC "message rolling count";
+CM_ SG_ 610 Vehicle7B_MSG_RC "message rolling count";
+CM_ SG_ 610 Vehicle7_BrLightIndicator "Brake Light Indicator";
+CM_ SG_ 610 Vehicle7_TurnIndicator "Turn Indicator";
+CM_ SG_ 625 Vehicle8A_MSG_RC "message rolling count";
+CM_ SG_ 626 Vehicle8B_MSG_RC "message rolling count";
+CM_ SG_ 626 Vehicle8_BrLightIndicator "Brake Light Indicator";
+CM_ SG_ 626 Vehicle8_TurnIndicator "Turn Indicator";
+CM_ SG_ 641 Vehicle9A_MSG_RC "message rolling count";
+CM_ SG_ 642 Vehicle9B_MSG_RC "message rolling count";
+CM_ SG_ 642 Vehicle9_BrLightIndicator "Brake Light Indicator";
+CM_ SG_ 642 Vehicle9_TurnIndicator "Turn Indicator";
+BA_DEF_ BO_  "NmMessage" ENUM  "No","Yes";
+BA_DEF_ BO_  "DiagState" ENUM  "No","Yes";
+BA_DEF_ BO_  "DiagRequest" ENUM  "No","Yes";
+BA_DEF_ BO_  "DiagResponse" ENUM  "No","Yes";
+BA_DEF_ BO_  "GenMsgSendType" ENUM  "Cyclic","Event","Mixed";
+BA_DEF_ BO_  "GenMsgCycleTime" INT 0 300000;
+BA_DEF_ SG_  "GenSigStartValue" INT 0 300000;
+BA_DEF_ SG_  "GenSigInactiveValue" INT 0 300000;
+BA_DEF_ BO_  "GenMsgCycleTimeFast" INT 0 300000;
+BA_DEF_ BO_  "GenMsgNrOfRepetition" INT 0 300000;
+BA_DEF_ BO_  "GenMsgInhibitTime" INT 0 300000;
+BA_DEF_  "DBName" STRING ;
+BA_DEF_ SG_  "GenSigGWTimeoutValue" HEX 0 300000;
+BA_DEF_ SG_  "GenSigValidAfterKL15" ENUM  "Y","N","Null";
+BA_DEF_ SG_  "GenSigUpdataPeriod" INT 0 300000;
+BA_DEF_ SG_  "GenSigNote" STRING ;
+BA_DEF_  "NmAsrWaitBusSleepTime" INT 0 65535;
+BA_DEF_  "NmAsrRepeatMessageTime" INT 0 65535;
+BA_DEF_ BU_  "NMAsrNodeIdentifier" HEX 0 255;
+BA_DEF_  "NmAsrMessageCount" INT 1 256;
+BA_DEF_  "NmAsrBaseAddress" HEX 0 2047;
+BA_DEF_ BO_  "NmAsrMessage" ENUM  "No","Yes";
+BA_DEF_ BU_  "NmAsrCanMsgReducedTime" INT 0 65535;
+BA_DEF_  "NmAsrCanMsgCycleTime" INT 1 65535;
+BA_DEF_ BU_  "NmAsrCanMsgCycleOffset" INT 0 65535;
+BA_DEF_  "NmAsrTimeoutTime" INT 1 65535;
+BA_DEF_ BU_  "NodeLayerModules" STRING ;
+BA_DEF_ BO_  "GenMsgCycleTimeActive" INT 0 0;
+BA_DEF_ BU_  "ILUsed" ENUM  "No","Yes";
+BA_DEF_ BU_  "DiagStationAddress" HEX 0 255;
+BA_DEF_ BU_  "NmAsrNode" ENUM  "No","Yes";
+BA_DEF_  "Manufacturer" STRING ;
+BA_DEF_  "NmType" STRING ;
+BA_DEF_ BO_  "GenMsgDelayTime" INT 0 1000;
+BA_DEF_ BO_  "GenMsgILSupport" ENUM  "No","Yes";
+BA_DEF_ BO_  "GenMsgStartDelayTime" INT 0 65535;
+BA_DEF_  "BusType" STRING ;
+BA_DEF_DEF_  "NmMessage" "No";
+BA_DEF_DEF_  "DiagState" "No";
+BA_DEF_DEF_  "DiagRequest" "No";
+BA_DEF_DEF_  "DiagResponse" "No";
+BA_DEF_DEF_  "GenMsgSendType" "Cyclic";
+BA_DEF_DEF_  "GenMsgCycleTime" 0;
+BA_DEF_DEF_  "GenSigStartValue" 0;
+BA_DEF_DEF_  "GenSigInactiveValue" 0;
+BA_DEF_DEF_  "GenMsgCycleTimeFast" 0;
+BA_DEF_DEF_  "GenMsgNrOfRepetition" 0;
+BA_DEF_DEF_  "GenMsgInhibitTime" 0;
+BA_DEF_DEF_  "DBName" "";
+BA_DEF_DEF_  "GenSigGWTimeoutValue" 0;
+BA_DEF_DEF_  "GenSigValidAfterKL15" "Null";
+BA_DEF_DEF_  "GenSigUpdataPeriod" 0;
+BA_DEF_DEF_  "GenSigNote" "";
+BA_DEF_DEF_  "NmAsrWaitBusSleepTime" 1500;
+BA_DEF_DEF_  "NmAsrRepeatMessageTime" 500;
+BA_DEF_DEF_  "NMAsrNodeIdentifier" 0;
+BA_DEF_DEF_  "NmAsrMessageCount" 128;
+BA_DEF_DEF_  "NmAsrBaseAddress" 1536;
+BA_DEF_DEF_  "NmAsrMessage" "No";
+BA_DEF_DEF_  "NmAsrCanMsgReducedTime" 100;
+BA_DEF_DEF_  "NmAsrCanMsgCycleTime" 200;
+BA_DEF_DEF_  "NmAsrCanMsgCycleOffset" 0;
+BA_DEF_DEF_  "NmAsrTimeoutTime" 5000;
+BA_DEF_DEF_  "NodeLayerModules" "CANoeILNLVector.dll";
+BA_DEF_DEF_  "GenMsgCycleTimeActive" 0;
+BA_DEF_DEF_  "ILUsed" "Yes";
+BA_DEF_DEF_  "DiagStationAddress" 0;
+BA_DEF_DEF_  "NmAsrNode" "No";
+BA_DEF_DEF_  "Manufacturer" "Borgward";
+BA_DEF_DEF_  "NmType" "NmAsr";
+BA_DEF_DEF_  "GenMsgDelayTime" 0;
+BA_DEF_DEF_  "GenMsgILSupport" "Yes";
+BA_DEF_DEF_  "GenMsgStartDelayTime" 0;
+BA_DEF_DEF_  "BusType" "CAN";
+BA_ "DBName" "BCAN";
+BA_ "GenMsgCycleTime" BO_ 785 33;
+BA_ "GenMsgCycleTime" BO_ 786 33;
+BA_ "GenMsgCycleTime" BO_ 801 33;
+BA_ "GenMsgCycleTime" BO_ 802 33;
+BA_ "GenMsgCycleTime" BO_ 817 33;
+BA_ "GenMsgCycleTime" BO_ 818 33;
+BA_ "GenMsgCycleTime" BO_ 833 33;
+BA_ "GenMsgCycleTime" BO_ 834 33;
+BA_ "GenMsgCycleTime" BO_ 849 33;
+BA_ "GenMsgCycleTime" BO_ 850 33;
+BA_ "GenMsgCycleTime" BO_ 865 33;
+BA_ "GenMsgCycleTime" BO_ 866 33;
+BA_ "GenMsgCycleTime" BO_ 881 33;
+BA_ "GenMsgCycleTime" BO_ 882 33;
+BA_ "GenMsgCycleTime" BO_ 897 33;
+BA_ "GenMsgCycleTime" BO_ 898 33;
+BA_ "GenMsgCycleTime" BO_ 256 33;
+BA_ "GenMsgCycleTime" BO_ 265 33;
+BA_ "GenMsgCycleTime" BO_ 266 33;
+BA_ "GenMsgCycleTime" BO_ 267 33;
+BA_ "GenMsgCycleTime" BO_ 268 33;
+BA_ "GenMsgCycleTime" BO_ 269 33;
+BA_ "GenMsgCycleTime" BO_ 270 33;
+BA_ "GenMsgCycleTime" BO_ 271 33;
+BA_ "GenMsgCycleTime" BO_ 257 33;
+BA_ "GenMsgCycleTime" BO_ 258 33;
+BA_ "GenMsgCycleTime" BO_ 259 33;
+BA_ "GenMsgCycleTime" BO_ 260 33;
+BA_ "GenMsgCycleTime" BO_ 261 33;
+BA_ "GenMsgCycleTime" BO_ 262 33;
+BA_ "GenMsgCycleTime" BO_ 263 33;
+BA_ "GenMsgCycleTime" BO_ 264 33;
+BA_ "GenMsgCycleTime" BO_ 657 33;
+BA_ "GenMsgCycleTime" BO_ 658 33;
+BA_ "GenMsgCycleTime" BO_ 673 33;
+BA_ "GenMsgCycleTime" BO_ 674 33;
+BA_ "GenMsgCycleTime" BO_ 689 33;
+BA_ "GenMsgCycleTime" BO_ 690 33;
+BA_ "GenMsgCycleTime" BO_ 705 33;
+BA_ "GenMsgCycleTime" BO_ 706 33;
+BA_ "GenMsgCycleTime" BO_ 721 33;
+BA_ "GenMsgCycleTime" BO_ 722 33;
+BA_ "GenMsgCycleTime" BO_ 737 33;
+BA_ "GenMsgCycleTime" BO_ 738 33;
+BA_ "GenMsgCycleTime" BO_ 753 33;
+BA_ "GenMsgCycleTime" BO_ 754 33;
+BA_ "GenMsgCycleTime" BO_ 513 33;
+BA_ "GenMsgCycleTime" BO_ 514 33;
+BA_ "GenMsgCycleTime" BO_ 529 33;
+BA_ "GenMsgCycleTime" BO_ 530 33;
+BA_ "GenMsgCycleTime" BO_ 545 33;
+BA_ "GenMsgCycleTime" BO_ 546 33;
+BA_ "GenMsgCycleTime" BO_ 561 33;
+BA_ "GenMsgCycleTime" BO_ 562 33;
+BA_ "GenMsgCycleTime" BO_ 577 33;
+BA_ "GenMsgCycleTime" BO_ 578 33;
+BA_ "GenMsgCycleTime" BO_ 593 33;
+BA_ "GenMsgCycleTime" BO_ 594 33;
+BA_ "GenMsgCycleTime" BO_ 609 33;
+BA_ "GenMsgCycleTime" BO_ 610 33;
+BA_ "GenMsgCycleTime" BO_ 625 33;
+BA_ "GenMsgCycleTime" BO_ 626 33;
+BA_ "GenMsgCycleTime" BO_ 641 33;
+BA_ "GenMsgCycleTime" BO_ 642 33;
+BA_ "GenSigNote" SG_ 3221225472 StopZebra_MSG_RC "r为从原点到停止线的垂线段距离，即原点到停止线的最短距离";
+BA_ "GenSigNote" SG_ 3221225472 StopLine_r "r为从原点到停止线的垂线段距离，即原点到停止线的最短距离";
+BA_ "GenSigNote" SG_ 3221225472 StopLine_Angle "θ为垂线段与x轴夹角，符号定义参考ISO坐标系。";
+BA_ "GenSigStartValue" SG_ 1032 TrafficLight8_Horiaon_Angle 1023.89078498294;
+BA_ "GenSigStartValue" SG_ 1032 TrafficLight8_DistRange 0;
+BA_ "GenSigStartValue" SG_ 1031 TrafficLight7_Horiaon_Angle 1023.89078498294;
+BA_ "GenSigStartValue" SG_ 1031 TrafficLight7_DistRange 0;
+BA_ "GenSigStartValue" SG_ 1030 TrafficLight6_Horiaon_Angle 1023.89078498294;
+BA_ "GenSigStartValue" SG_ 1030 TrafficLight6_DistRange 0;
+BA_ "GenSigStartValue" SG_ 1029 TrafficLight5_Horiaon_Angle 1023.89078498294;
+BA_ "GenSigStartValue" SG_ 1029 TrafficLight5_DistRange 0;
+BA_ "GenSigStartValue" SG_ 1028 TrafficLight4_Horiaon_Angle 1023.89078498294;
+BA_ "GenSigStartValue" SG_ 1028 TrafficLight4_DistRange 0;
+BA_ "GenSigStartValue" SG_ 1027 TrafficLight3_Horiaon_Angle 1023.89078498294;
+BA_ "GenSigStartValue" SG_ 1027 TrafficLight3_DistRange 0;
+BA_ "GenSigStartValue" SG_ 1026 TrafficLight2_Horiaon_Angle 1023.89078498294;
+BA_ "GenSigStartValue" SG_ 1026 TrafficLight2_DistRange 0;
+BA_ "GenSigStartValue" SG_ 1025 TrafficLight1_Horiaon_Angle 1023.89078498294;
+BA_ "GenSigStartValue" SG_ 1025 TrafficLight1_DistRange 0;
+BA_ "GenSigStartValue" SG_ 37 YawRate 0;
+BA_ "GenSigStartValue" SG_ 772 Curb4_Valid_Start_Dist 0;
+BA_ "GenSigStartValue" SG_ 772 Curb4_Valid_End_Dist 0;
+BA_ "GenSigStartValue" SG_ 772 Curb4_Confidence 0;
+BA_ "GenSigStartValue" SG_ 772 Curb4_A3 0;
+BA_ "GenSigStartValue" SG_ 772 Curb4_A2 0;
+BA_ "GenSigStartValue" SG_ 772 Curb4_A1 0;
+BA_ "GenSigStartValue" SG_ 772 Curb4_A0 1600;
+BA_ "GenSigStartValue" SG_ 771 Curb3_Valid_Start_Dist 0;
+BA_ "GenSigStartValue" SG_ 771 Curb3_Valid_End_Dist 0;
+BA_ "GenSigStartValue" SG_ 771 Curb3_Confidence 0;
+BA_ "GenSigStartValue" SG_ 771 Curb3_A3 0;
+BA_ "GenSigStartValue" SG_ 771 Curb3_A2 0;
+BA_ "GenSigStartValue" SG_ 771 Curb3_A1 0;
+BA_ "GenSigStartValue" SG_ 771 Curb3_A0 1600;
+BA_ "GenSigStartValue" SG_ 770 Curb2_Valid_Start_Dist 0;
+BA_ "GenSigStartValue" SG_ 770 Curb2_Valid_End_Dist 0;
+BA_ "GenSigStartValue" SG_ 770 Curb2_Confidence 0;
+BA_ "GenSigStartValue" SG_ 770 Curb2_A3 0;
+BA_ "GenSigStartValue" SG_ 770 Curb2_A2 0;
+BA_ "GenSigStartValue" SG_ 770 Curb2_A1 0;
+BA_ "GenSigStartValue" SG_ 770 Curb2_A0 1600;
+BA_ "GenSigStartValue" SG_ 769 Curb1_Valid_Start_Dist 0;
+BA_ "GenSigStartValue" SG_ 769 Curb1_Valid_End_Dist 0;
+BA_ "GenSigStartValue" SG_ 769 Curb1_Confidence 0;
+BA_ "GenSigStartValue" SG_ 769 Curb1_A3 0;
+BA_ "GenSigStartValue" SG_ 769 Curb1_A2 0;
+BA_ "GenSigStartValue" SG_ 769 Curb1_A1 0;
+BA_ "GenSigStartValue" SG_ 769 Curb1_A0 1600;
+BA_ "GenSigNote" SG_ 786 Lane1_Cross_Dist "本车道线到分叉点的X方向距离";
+BA_ "GenSigNote" SG_ 786 Lane1_Cross_ID "在本车道线分叉处新生成的车道线ID";
+BA_ "GenSigNote" SG_ 786 Lane1_Confidence "置信度";
+BA_ "GenSigNote" SG_ 802 Lane2_Cross_Dist "本车道线到分叉点的X方向距离";
+BA_ "GenSigNote" SG_ 802 Lane2_Cross_ID "在本车道线分叉处新生成的车道线ID";
+BA_ "GenSigNote" SG_ 802 Lane2_Confidence "置信度";
+BA_ "GenSigNote" SG_ 818 Lane3_Cross_Dist "本车道线到分叉点的X方向距离";
+BA_ "GenSigNote" SG_ 818 Lane3_Cross_ID "在本车道线分叉处新生成的车道线ID";
+BA_ "GenSigNote" SG_ 818 Lane3_Confidence "置信度";
+BA_ "GenSigNote" SG_ 834 Lane4_Cross_Dist "本车道线到分叉点的X方向距离";
+BA_ "GenSigNote" SG_ 834 Lane4_Cross_ID "在本车道线分叉处新生成的车道线ID";
+BA_ "GenSigNote" SG_ 834 Lane4_Confidence "置信度";
+BA_ "GenSigNote" SG_ 850 Lane5_Cross_Dist "本车道线到分叉点的X方向距离";
+BA_ "GenSigNote" SG_ 850 Lane5_Cross_ID "在本车道线分叉处新生成的车道线ID";
+BA_ "GenSigNote" SG_ 850 Lane5_Confidence "置信度";
+BA_ "GenSigNote" SG_ 866 Lane6_Cross_Dist "本车道线到分叉点的X方向距离";
+BA_ "GenSigNote" SG_ 866 Lane6_Cross_ID "在本车道线分叉处新生成的车道线ID";
+BA_ "GenSigNote" SG_ 866 Lane6_Confidence "置信度";
+BA_ "GenSigNote" SG_ 882 Lane7_Cross_Dist "本车道线到分叉点的X方向距离";
+BA_ "GenSigNote" SG_ 882 Lane7_Cross_ID "在本车道线分叉处新生成的车道线ID";
+BA_ "GenSigNote" SG_ 882 Lane7_Confidence "置信度";
+BA_ "GenSigNote" SG_ 898 Lane8_Cross_Dist "本车道线到分叉点的X方向距离";
+BA_ "GenSigNote" SG_ 898 Lane8_Cross_ID "在本车道线分叉处新生成的车道线ID";
+BA_ "GenSigNote" SG_ 898 Lane8_Confidence "置信度";
+BA_ "GenSigNote" SG_ 256 PedRider1_Range "目标的相对距离";
+BA_ "GenSigNote" SG_ 256 PedRider1_Heading_Angle "目标的朝向，与目标ISO坐标系X轴的夹角";
+BA_ "GenSigNote" SG_ 256 PedRider1_RangeRate "目标的相对距离变化率，即速度";
+BA_ "GenSigNote" SG_ 256 PedRider1_Angle "目标与车辆ISO坐标系X轴的夹角";
+BA_ "GenSigNote" SG_ 256 PedRider1_Height "目标高度";
+BA_ "GenSigNote" SG_ 265 PedRider10_Range "目标的相对距离";
+BA_ "GenSigNote" SG_ 265 PedRider10_Heading_Angle "目标的朝向，与目标ISO坐标系X轴的夹角";
+BA_ "GenSigNote" SG_ 265 PedRider10_RangeRate "目标的相对距离变化率，即速度";
+BA_ "GenSigNote" SG_ 265 PedRider10_Angle "目标与车辆ISO坐标系X轴的夹角";
+BA_ "GenSigNote" SG_ 265 PedRider10_Height "目标高度";
+BA_ "GenSigNote" SG_ 266 PedRider11_Range "目标的相对距离";
+BA_ "GenSigNote" SG_ 266 PedRider11_Heading_Angle "目标的朝向，与目标ISO坐标系X轴的夹角";
+BA_ "GenSigNote" SG_ 266 PedRider11_RangeRate "目标的相对距离变化率，即速度";
+BA_ "GenSigNote" SG_ 266 PedRider11_Angle "目标与车辆ISO坐标系X轴的夹角";
+BA_ "GenSigNote" SG_ 266 PedRider11_Height "目标高度";
+BA_ "GenSigNote" SG_ 267 PedRider12_Range "目标的相对距离";
+BA_ "GenSigNote" SG_ 267 PedRider12_Heading_Angle "目标的朝向，与目标ISO坐标系X轴的夹角";
+BA_ "GenSigNote" SG_ 267 PedRider12_RangeRate "目标的相对距离变化率，即速度";
+BA_ "GenSigNote" SG_ 267 PedRider12_Angle "目标与车辆ISO坐标系X轴的夹角";
+BA_ "GenSigNote" SG_ 267 PedRider12_Height "目标高度";
+BA_ "GenSigNote" SG_ 268 PedRider13_Range "目标的相对距离";
+BA_ "GenSigNote" SG_ 268 PedRider13_Heading_Angle "目标的朝向，与目标ISO坐标系X轴的夹角";
+BA_ "GenSigNote" SG_ 268 PedRider13_RangeRate "目标的相对距离变化率，即速度";
+BA_ "GenSigNote" SG_ 268 PedRider13_Angle "目标与车辆ISO坐标系X轴的夹角";
+BA_ "GenSigNote" SG_ 268 PedRider13_Height "目标高度";
+BA_ "GenSigNote" SG_ 269 PedRider14_Range "目标的相对距离";
+BA_ "GenSigNote" SG_ 269 PedRider14_Heading_Angle "目标的朝向，与目标ISO坐标系X轴的夹角";
+BA_ "GenSigNote" SG_ 269 PedRider14_RangeRate "目标的相对距离变化率，即速度";
+BA_ "GenSigNote" SG_ 269 PedRider14_Angle "目标与车辆ISO坐标系X轴的夹角";
+BA_ "GenSigNote" SG_ 269 PedRider14_Height "目标高度";
+BA_ "GenSigNote" SG_ 270 PedRider15_Range "目标的相对距离";
+BA_ "GenSigNote" SG_ 270 PedRider15_Heading_Angle "目标的朝向，与目标ISO坐标系X轴的夹角";
+BA_ "GenSigNote" SG_ 270 PedRider15_RangeRate "目标的相对距离变化率，即速度";
+BA_ "GenSigNote" SG_ 270 PedRider15_Angle "目标与车辆ISO坐标系X轴的夹角";
+BA_ "GenSigNote" SG_ 270 PedRider15_Height "目标高度";
+BA_ "GenSigNote" SG_ 271 PedRider16_Range "目标的相对距离";
+BA_ "GenSigNote" SG_ 271 PedRider16_Heading_Angle "目标的朝向，与目标ISO坐标系X轴的夹角";
+BA_ "GenSigNote" SG_ 271 PedRider16_RangeRate "目标的相对距离变化率，即速度";
+BA_ "GenSigNote" SG_ 271 PedRider16_Angle "目标与车辆ISO坐标系X轴的夹角";
+BA_ "GenSigNote" SG_ 271 PedRider16_Height "目标高度";
+BA_ "GenSigNote" SG_ 257 PedRider2_Range "目标的相对距离";
+BA_ "GenSigNote" SG_ 257 PedRider2_Heading_Angle "目标的朝向，与目标ISO坐标系X轴的夹角";
+BA_ "GenSigNote" SG_ 257 PedRider2_RangeRate "目标的相对距离变化率，即速度";
+BA_ "GenSigNote" SG_ 257 PedRider2_Angle "目标与车辆ISO坐标系X轴的夹角";
+BA_ "GenSigNote" SG_ 257 PedRider2_Height "目标高度";
+BA_ "GenSigNote" SG_ 258 PedRider3_Range "目标的相对距离";
+BA_ "GenSigNote" SG_ 258 PedRider3_Heading_Angle "目标的朝向，与目标ISO坐标系X轴的夹角";
+BA_ "GenSigNote" SG_ 258 PedRider3_RangeRate "目标的相对距离变化率，即速度";
+BA_ "GenSigNote" SG_ 258 PedRider3_Angle "目标与车辆ISO坐标系X轴的夹角";
+BA_ "GenSigNote" SG_ 258 PedRider3_Height "目标高度";
+BA_ "GenSigNote" SG_ 259 PedRider4_Range "目标的相对距离";
+BA_ "GenSigNote" SG_ 259 PedRider4_Heading_Angle "目标的朝向，与目标ISO坐标系X轴的夹角";
+BA_ "GenSigNote" SG_ 259 PedRider4_RangeRate "目标的相对距离变化率，即速度";
+BA_ "GenSigNote" SG_ 259 PedRider4_Angle "目标与车辆ISO坐标系X轴的夹角";
+BA_ "GenSigNote" SG_ 259 PedRider4_Height "目标高度";
+BA_ "GenSigNote" SG_ 260 PedRider5_Range "目标的相对距离";
+BA_ "GenSigNote" SG_ 260 PedRider5_Heading_Angle "目标的朝向，与目标ISO坐标系X轴的夹角";
+BA_ "GenSigNote" SG_ 260 PedRider5_RangeRate "目标的相对距离变化率，即速度";
+BA_ "GenSigNote" SG_ 260 PedRider5_Angle "目标与车辆ISO坐标系X轴的夹角";
+BA_ "GenSigNote" SG_ 260 PedRider5_Height "目标高度";
+BA_ "GenSigNote" SG_ 261 PedRider6_Range "目标的相对距离";
+BA_ "GenSigNote" SG_ 261 PedRider6_Heading_Angle "目标的朝向，与目标ISO坐标系X轴的夹角";
+BA_ "GenSigNote" SG_ 261 PedRider6_RangeRate "目标的相对距离变化率，即速度";
+BA_ "GenSigNote" SG_ 261 PedRider6_Angle "目标与车辆ISO坐标系X轴的夹角";
+BA_ "GenSigNote" SG_ 261 PedRider6_Height "目标高度";
+BA_ "GenSigNote" SG_ 262 PedRider7_Range "目标的相对距离";
+BA_ "GenSigNote" SG_ 262 PedRider7_Heading_Angle "目标的朝向，与目标ISO坐标系X轴的夹角";
+BA_ "GenSigNote" SG_ 262 PedRider7_RangeRate "目标的相对距离变化率，即速度";
+BA_ "GenSigNote" SG_ 262 PedRider7_Angle "目标与车辆ISO坐标系X轴的夹角";
+BA_ "GenSigNote" SG_ 262 PedRider7_Height "目标高度";
+BA_ "GenSigNote" SG_ 263 PedRider8_Range "目标的相对距离";
+BA_ "GenSigNote" SG_ 263 PedRider8_Heading_Angle "目标的朝向，与目标ISO坐标系X轴的夹角";
+BA_ "GenSigNote" SG_ 263 PedRider8_RangeRate "目标的相对距离变化率，即速度";
+BA_ "GenSigNote" SG_ 263 PedRider8_Angle "目标与车辆ISO坐标系X轴的夹角";
+BA_ "GenSigNote" SG_ 263 PedRider8_Height "目标高度";
+BA_ "GenSigNote" SG_ 264 PedRider9_Range "目标的相对距离";
+BA_ "GenSigNote" SG_ 264 PedRider9_Heading_Angle "目标的朝向，与目标ISO坐标系X轴的夹角";
+BA_ "GenSigNote" SG_ 264 PedRider9_RangeRate "目标的相对距离变化率，即速度";
+BA_ "GenSigNote" SG_ 264 PedRider9_Angle "目标与车辆ISO坐标系X轴的夹角";
+BA_ "GenSigNote" SG_ 264 PedRider9_Height "目标高度";
+BA_ "GenSigNote" SG_ 657 Vehicle10_Range "目标的相对距离";
+BA_ "GenSigNote" SG_ 657 Vehicle10_Angle "目标与车辆ISO坐标系X轴的夹角";
+BA_ "GenSigNote" SG_ 657 Vehicle10_RangeRate "目标的相对距离变化率";
+BA_ "GenSigNote" SG_ 657 Vehicle10_HeadingAngle "目标的航向角heading angle（与x轴的夹角）";
+BA_ "GenSigNote" SG_ 658 Vehicle10_Width "目标宽度";
+BA_ "GenSigNote" SG_ 658 Vehicle10_Height "目标高度";
+BA_ "GenSigNote" SG_ 658 Vehicle10_Type "目标车辆种类";
+BA_ "GenSigNote" SG_ 658 Vehicle10_TurnRadius "目标车辆的转弯半径";
+BA_ "GenSigNote" SG_ 658 Vehicle10_Length "目标长度";
+BA_ "GenSigNote" SG_ 673 Vehicle11_Range "目标的相对距离";
+BA_ "GenSigNote" SG_ 673 Vehicle11_Angle "目标与车辆ISO坐标系X轴的夹角";
+BA_ "GenSigNote" SG_ 673 Vehicle11_RangeRate "目标的相对距离变化率";
+BA_ "GenSigNote" SG_ 673 Vehicle11_HeadingAngle "目标的航向角heading angle（与x轴的夹角）";
+BA_ "GenSigNote" SG_ 674 Vehicle11_Width "目标宽度";
+BA_ "GenSigNote" SG_ 674 Vehicle11_Height "目标高度";
+BA_ "GenSigNote" SG_ 674 Vehicle11_Type "目标车辆种类";
+BA_ "GenSigNote" SG_ 674 Vehicle11_TurnRadius "目标车辆的转弯半径";
+BA_ "GenSigNote" SG_ 674 Vehicle11_Length "目标长度";
+BA_ "GenSigNote" SG_ 689 Vehicle12_Range "目标的相对距离";
+BA_ "GenSigNote" SG_ 689 Vehicle12_Angle "目标与车辆ISO坐标系X轴的夹角";
+BA_ "GenSigNote" SG_ 689 Vehicle12_RangeRate "目标的相对距离变化率";
+BA_ "GenSigNote" SG_ 689 Vehicle12_HeadingAngle "目标的航向角heading angle（与x轴的夹角）";
+BA_ "GenSigNote" SG_ 690 Vehicle12_Width "目标宽度";
+BA_ "GenSigNote" SG_ 690 Vehicle12_Height "目标高度";
+BA_ "GenSigNote" SG_ 690 Vehicle12_Type "目标车辆种类";
+BA_ "GenSigNote" SG_ 690 Vehicle12_TurnRadius "目标车辆的转弯半径";
+BA_ "GenSigNote" SG_ 690 Vehicle12_Length "目标长度";
+BA_ "GenSigNote" SG_ 705 Vehicle13_Range "目标的相对距离";
+BA_ "GenSigNote" SG_ 705 Vehicle13_Angle "目标与车辆ISO坐标系X轴的夹角";
+BA_ "GenSigNote" SG_ 705 Vehicle13_RangeRate "目标的相对距离变化率";
+BA_ "GenSigNote" SG_ 705 Vehicle13_HeadingAngle "目标的航向角heading angle（与x轴的夹角）";
+BA_ "GenSigNote" SG_ 706 Vehicle13_Width "目标宽度";
+BA_ "GenSigNote" SG_ 706 Vehicle13_Height "目标高度";
+BA_ "GenSigNote" SG_ 706 Vehicle13_Type "目标车辆种类";
+BA_ "GenSigNote" SG_ 706 Vehicle13_TurnRadius "目标车辆的转弯半径";
+BA_ "GenSigNote" SG_ 706 Vehicle13_Length "目标长度";
+BA_ "GenSigNote" SG_ 721 Vehicle14_Range "目标的相对距离";
+BA_ "GenSigNote" SG_ 721 Vehicle14_Angle "目标与车辆ISO坐标系X轴的夹角";
+BA_ "GenSigNote" SG_ 721 Vehicle14_RangeRate "目标的相对距离变化率";
+BA_ "GenSigNote" SG_ 721 Vehicle14_HeadingAngle "目标的航向角heading angle（与x轴的夹角）";
+BA_ "GenSigNote" SG_ 722 Vehicle14_Width "目标宽度";
+BA_ "GenSigNote" SG_ 722 Vehicle14_Height "目标高度";
+BA_ "GenSigNote" SG_ 722 Vehicle14_Type "目标车辆种类";
+BA_ "GenSigNote" SG_ 722 Vehicle14_TurnRadius "目标车辆的转弯半径";
+BA_ "GenSigNote" SG_ 722 Vehicle14_Length "目标长度";
+BA_ "GenSigNote" SG_ 737 Vehicle15_Range "目标的相对距离";
+BA_ "GenSigNote" SG_ 737 Vehicle15_Angle "目标与车辆ISO坐标系X轴的夹角";
+BA_ "GenSigNote" SG_ 737 Vehicle15_RangeRate "目标的相对距离变化率";
+BA_ "GenSigNote" SG_ 737 Vehicle15_HeadingAngle "目标的航向角heading angle（与x轴的夹角）";
+BA_ "GenSigNote" SG_ 738 Vehicle15_Width "目标宽度";
+BA_ "GenSigNote" SG_ 738 Vehicle15_Height "目标高度";
+BA_ "GenSigNote" SG_ 738 Vehicle15_Type "目标车辆种类";
+BA_ "GenSigNote" SG_ 738 Vehicle15_TurnRadius "目标车辆的转弯半径";
+BA_ "GenSigNote" SG_ 738 Vehicle15_Length "目标长度";
+BA_ "GenSigNote" SG_ 753 Vehicle16_Range "目标的相对距离";
+BA_ "GenSigNote" SG_ 753 Vehicle16_Angle "目标与车辆ISO坐标系X轴的夹角";
+BA_ "GenSigNote" SG_ 753 Vehicle16_RangeRate "目标的相对距离变化率";
+BA_ "GenSigNote" SG_ 753 Vehicle16_HeadingAngle "目标的航向角heading angle（与x轴的夹角）";
+BA_ "GenSigNote" SG_ 754 Vehicle16_Width "目标宽度";
+BA_ "GenSigNote" SG_ 754 Vehicle16_Height "目标高度";
+BA_ "GenSigNote" SG_ 754 Vehicle16_Type "目标车辆种类";
+BA_ "GenSigNote" SG_ 754 Vehicle16_TurnRadius "目标车辆的转弯半径";
+BA_ "GenSigNote" SG_ 754 Vehicle16_Length "目标长度";
+BA_ "GenSigNote" SG_ 513 Vehicle1_Range "目标的相对距离";
+BA_ "GenSigNote" SG_ 513 Vehicle1_Angle "目标与车辆ISO坐标系X轴的夹角";
+BA_ "GenSigNote" SG_ 513 Vehicle1_RangeRate "目标的相对距离变化率";
+BA_ "GenSigNote" SG_ 513 Vehicle1_HeadingAngle "目标的航向角heading angle（与x轴的夹角）";
+BA_ "GenSigNote" SG_ 514 Vehicle1_Width "目标宽度";
+BA_ "GenSigNote" SG_ 514 Vehicle1_Height "目标高度";
+BA_ "GenSigNote" SG_ 514 Vehicle1_Type "目标车辆种类";
+BA_ "GenSigNote" SG_ 514 Vehicle1_TurnRadius "目标车辆的转弯半径";
+BA_ "GenSigNote" SG_ 514 Vehicle1_Length "目标长度";
+BA_ "GenSigNote" SG_ 529 Vehicle2_Range "目标的相对距离";
+BA_ "GenSigNote" SG_ 529 Vehicle2_Angle "目标与车辆ISO坐标系X轴的夹角";
+BA_ "GenSigNote" SG_ 529 Vehicle2_RangeRate "目标的相对距离变化率";
+BA_ "GenSigNote" SG_ 529 Vehicle2_HeadingAngle "目标的航向角heading angle（与x轴的夹角）";
+BA_ "GenSigNote" SG_ 530 Vehicle2_Width "目标宽度";
+BA_ "GenSigNote" SG_ 530 Vehicle2_Height "目标高度";
+BA_ "GenSigNote" SG_ 530 Vehicle2_Type "目标车辆种类";
+BA_ "GenSigNote" SG_ 530 Vehicle2_TurnRadius "目标车辆的转弯半径";
+BA_ "GenSigNote" SG_ 530 Vehicle2_Length "目标长度";
+BA_ "GenSigNote" SG_ 545 Vehicle3_Range "目标的相对距离";
+BA_ "GenSigNote" SG_ 545 Vehicle3_Angle "目标与车辆ISO坐标系X轴的夹角";
+BA_ "GenSigNote" SG_ 545 Vehicle3_RangeRate "目标的相对距离变化率";
+BA_ "GenSigNote" SG_ 545 Vehicle3_HeadingAngle "目标的航向角heading angle（与x轴的夹角）";
+BA_ "GenSigNote" SG_ 546 Vehicle3_Width "目标宽度";
+BA_ "GenSigNote" SG_ 546 Vehicle3_Height "目标高度";
+BA_ "GenSigNote" SG_ 546 Vehicle3_Type "目标车辆种类";
+BA_ "GenSigNote" SG_ 546 Vehicle3_TurnRadius "目标车辆的转弯半径";
+BA_ "GenSigNote" SG_ 546 Vehicle3_Length "目标长度";
+BA_ "GenSigNote" SG_ 561 Vehicle4_Range "目标的相对距离";
+BA_ "GenSigNote" SG_ 561 Vehicle4_Angle "目标与车辆ISO坐标系X轴的夹角";
+BA_ "GenSigNote" SG_ 561 Vehicle4_RangeRate "目标的相对距离变化率";
+BA_ "GenSigNote" SG_ 561 Vehicle4_HeadingAngle "目标的航向角heading angle（与x轴的夹角）";
+BA_ "GenSigNote" SG_ 562 Vehicle4_Width "目标宽度";
+BA_ "GenSigNote" SG_ 562 Vehicle4_Height "目标高度";
+BA_ "GenSigNote" SG_ 562 Vehicle4_Type "目标车辆种类";
+BA_ "GenSigNote" SG_ 562 Vehicle4_TurnRadius "目标车辆的转弯半径";
+BA_ "GenSigNote" SG_ 562 Vehicle4_Length "目标长度";
+BA_ "GenSigNote" SG_ 577 Vehicle5_Range "目标的相对距离";
+BA_ "GenSigNote" SG_ 577 Vehicle5_Angle "目标与车辆ISO坐标系X轴的夹角";
+BA_ "GenSigNote" SG_ 577 Vehicle5_RangeRate "目标的相对距离变化率";
+BA_ "GenSigNote" SG_ 577 Vehicle5_HeadingAngle "目标的航向角heading angle（与x轴的夹角）";
+BA_ "GenSigNote" SG_ 578 Vehicle5_Width "目标宽度";
+BA_ "GenSigNote" SG_ 578 Vehicle5_Height "目标高度";
+BA_ "GenSigNote" SG_ 578 Vehicle5_Type "目标车辆种类";
+BA_ "GenSigNote" SG_ 578 Vehicle5_TurnRadius "目标车辆的转弯半径";
+BA_ "GenSigNote" SG_ 578 Vehicle5_Length "目标长度";
+BA_ "GenSigNote" SG_ 593 Vehicle6_Range "目标的相对距离";
+BA_ "GenSigNote" SG_ 593 Vehicle6_Angle "目标与车辆ISO坐标系X轴的夹角";
+BA_ "GenSigNote" SG_ 593 Vehicle6_RangeRate "目标的相对距离变化率";
+BA_ "GenSigNote" SG_ 593 Vehicle6_HeadingAngle "目标的航向角heading angle（与x轴的夹角）";
+BA_ "GenSigNote" SG_ 594 Vehicle6_Width "目标宽度";
+BA_ "GenSigNote" SG_ 594 Vehicle6_Height "目标高度";
+BA_ "GenSigNote" SG_ 594 Vehicle6_Type "目标车辆种类";
+BA_ "GenSigNote" SG_ 594 Vehicle6_TurnRadius "目标车辆的转弯半径";
+BA_ "GenSigNote" SG_ 594 Vehicle6_Length "目标长度";
+BA_ "GenSigNote" SG_ 609 Vehicle7_Range "目标的相对距离";
+BA_ "GenSigNote" SG_ 609 Vehicle7_Angle "目标与车辆ISO坐标系X轴的夹角";
+BA_ "GenSigNote" SG_ 609 Vehicle7_RangeRate "目标的相对距离变化率";
+BA_ "GenSigNote" SG_ 609 Vehicle7_HeadingAngle "目标的航向角heading angle（与x轴的夹角）";
+BA_ "GenSigNote" SG_ 610 Vehicle7_Width "目标宽度";
+BA_ "GenSigNote" SG_ 610 Vehicle7_Height "目标高度";
+BA_ "GenSigNote" SG_ 610 Vehicle7_Type "目标车辆种类";
+BA_ "GenSigNote" SG_ 610 Vehicle7_TurnRadius "目标车辆的转弯半径";
+BA_ "GenSigNote" SG_ 610 Vehicle7_Length "目标长度";
+BA_ "GenSigNote" SG_ 625 Vehicle8_Range "目标的相对距离";
+BA_ "GenSigNote" SG_ 625 Vehicle8_Angle "目标与车辆ISO坐标系X轴的夹角";
+BA_ "GenSigNote" SG_ 625 Vehicle8_RangeRate "目标的相对距离变化率";
+BA_ "GenSigNote" SG_ 625 Vehicle8_HeadingAngle "目标的航向角heading angle（与x轴的夹角）";
+BA_ "GenSigNote" SG_ 626 Vehicle8_Width "目标宽度";
+BA_ "GenSigNote" SG_ 626 Vehicle8_Height "目标高度";
+BA_ "GenSigNote" SG_ 626 Vehicle8_Type "目标车辆种类";
+BA_ "GenSigNote" SG_ 626 Vehicle8_TurnRadius "目标车辆的转弯半径";
+BA_ "GenSigNote" SG_ 626 Vehicle8_Length "目标长度";
+BA_ "GenSigNote" SG_ 641 Vehicle9_Range "目标的相对距离";
+BA_ "GenSigNote" SG_ 641 Vehicle9_Angle "目标与车辆ISO坐标系X轴的夹角";
+BA_ "GenSigNote" SG_ 641 Vehicle9_RangeRate "目标的相对距离变化率";
+BA_ "GenSigNote" SG_ 641 Vehicle9_HeadingAngle "目标的航向角heading angle（与x轴的夹角）";
+BA_ "GenSigNote" SG_ 642 Vehicle9_Width "目标宽度";
+BA_ "GenSigNote" SG_ 642 Vehicle9_Height "目标高度";
+BA_ "GenSigNote" SG_ 642 Vehicle9_Type "目标车辆种类";
+BA_ "GenSigNote" SG_ 642 Vehicle9_TurnRadius "目标车辆的转弯半径";
+BA_ "GenSigNote" SG_ 642 Vehicle9_Length "目标长度";
+VAL_ 3221225472 StopLine_Confidence 5 "1.0" 4 "0.75" 3 "0.5" 2 "0.25" 1 "0.1" 0 "0" ;
+VAL_ 785 Lane1_St_Color 3 "other" 2 "yellow" 1 "white" 0 "uncertain" ;
+VAL_ 786 Lane1_Type 7 "tripple lines" 6 "double solid line" 5 "double dotted line" 4 "left solid & right dotted line" 3 "left dotted&right solid line" 2 "single solid line" 1 "single dotted line" 0 "uncertain" ;
+VAL_ 786 Lane1_Cross_ID 8 "the lane 8" 7 "the lane 7" 6 "the lane 6" 5 "the lane 5" 4 "the lane 4" 3 "the lane 3" 2 "the lane 2" 1 "the lane 1" 0 "no cross lane," ;
+VAL_ 786 Lane1_Confidence 5 "1.0" 4 "0.75" 3 "0.5" 2 "0.25" 1 "0.1" 0 "0" ;
+VAL_ 801 Lane2_St_Color 3 "other" 2 "yellow" 1 "white" 0 "uncertain" ;
+VAL_ 802 Lane2_Type 7 "tripple lines" 6 "double solid line" 5 "double dotted line" 4 "left solid & right dotted line" 3 "left dotted&right solid line" 2 "single solid line" 1 "single dotted line" 0 "uncertain" ;
+VAL_ 802 Lane2_Cross_ID 8 "the lane 8" 7 "the lane 7" 6 "the lane 6" 5 "the lane 5" 4 "the lane 4" 3 "the lane 3" 2 "the lane 2" 1 "the lane 1" 0 "no cross lane," ;
+VAL_ 802 Lane2_Confidence 5 "1.0" 4 "0.75" 3 "0.5" 2 "0.25" 1 "0.1" 0 "0" ;
+VAL_ 817 Lane3_St_Color 3 "other" 2 "yellow" 1 "white" 0 "uncertain" ;
+VAL_ 818 Lane3_Type 7 "tripple lines" 6 "double solid line" 5 "double dotted line" 4 "left solid & right dotted line" 3 "left dotted&right solid line" 2 "single solid line" 1 "single dotted line" 0 "uncertain" ;
+VAL_ 818 Lane3_Cross_ID 8 "the lane 8" 7 "the lane 7" 6 "the lane 6" 5 "the lane 5" 4 "the lane 4" 3 "the lane 3" 2 "the lane 2" 1 "the lane 1" 0 "no cross lane," ;
+VAL_ 818 Lane3_Confidence 5 "1.0" 4 "0.75" 3 "0.5" 2 "0.25" 1 "0.1" 0 "0" ;
+VAL_ 833 Lane4_St_Color 3 "other" 2 "yellow" 1 "white" 0 "uncertain" ;
+VAL_ 834 Lane4_Type 7 "tripple lines" 6 "double solid line" 5 "double dotted line" 4 "left solid & right dotted line" 3 "left dotted&right solid line" 2 "single solid line" 1 "single dotted line" 0 "uncertain" ;
+VAL_ 834 Lane4_Cross_ID 8 "the lane 8" 7 "the lane 7" 6 "the lane 6" 5 "the lane 5" 4 "the lane 4" 3 "the lane 3" 2 "the lane 2" 1 "the lane 1" 0 "no cross lane," ;
+VAL_ 834 Lane4_Confidence 5 "1.0" 4 "0.75" 3 "0.5" 2 "0.25" 1 "0.1" 0 "0" ;
+VAL_ 849 Lane5_St_Color 3 "other" 2 "yellow" 1 "white" 0 "uncertain" ;
+VAL_ 850 Lane5_Type 7 "tripple lines" 6 "double solid line" 5 "double dotted line" 4 "left solid & right dotted line" 3 "left dotted&right solid line" 2 "single solid line" 1 "single dotted line" 0 "uncertain" ;
+VAL_ 850 Lane5_Cross_ID 8 "the lane 8" 7 "the lane 7" 6 "the lane 6" 5 "the lane 5" 4 "the lane 4" 3 "the lane 3" 2 "the lane 2" 1 "the lane 1" 0 "no cross lane," ;
+VAL_ 850 Lane5_Confidence 5 "1.0" 4 "0.75" 3 "0.5" 2 "0.25" 1 "0.1" 0 "0" ;
+VAL_ 865 Lane6_St_Color 3 "other" 2 "yellow" 1 "white" 0 "uncertain" ;
+VAL_ 866 Lane6_Type 7 "tripple lines" 6 "double solid line" 5 "double dotted line" 4 "left solid & right dotted line" 3 "left dotted&right solid line" 2 "single solid line" 1 "single dotted line" 0 "uncertain" ;
+VAL_ 866 Lane6_Cross_ID 8 "the lane 8" 7 "the lane 7" 6 "the lane 6" 5 "the lane 5" 4 "the lane 4" 3 "the lane 3" 2 "the lane 2" 1 "the lane 1" 0 "no cross lane," ;
+VAL_ 866 Lane6_Confidence 5 "1.0" 4 "0.75" 3 "0.5" 2 "0.25" 1 "0.1" 0 "0" ;
+VAL_ 881 Lane7_St_Color 3 "other" 2 "yellow" 1 "white" 0 "uncertain" ;
+VAL_ 882 Lane7_Type 7 "tripple lines" 6 "double solid line" 5 "double dotted line" 4 "left solid & right dotted line" 3 "left dotted&right solid line" 2 "single solid line" 1 "single dotted line" 0 "uncertain" ;
+VAL_ 882 Lane7_Cross_ID 8 "the lane 8" 7 "the lane 7" 6 "the lane 6" 5 "the lane 5" 4 "the lane 4" 3 "the lane 3" 2 "the lane 2" 1 "the lane 1" 0 "no cross lane," ;
+VAL_ 882 Lane7_Confidence 5 "1.0" 4 "0.75" 3 "0.5" 2 "0.25" 1 "0.1" 0 "0" ;
+VAL_ 897 Lane8_St_Color 3 "other" 2 "yellow" 1 "white" 0 "uncertain" ;
+VAL_ 898 Lane8_Type 7 "tripple lines" 6 "double solid line" 5 "double dotted line" 4 "left solid & right dotted line" 3 "left dotted&right solid line" 2 "single solid line" 1 "single dotted line" 0 "uncertain" ;
+VAL_ 898 Lane8_Cross_ID 8 "the lane 8" 7 "the lane 7" 6 "the lane 6" 5 "the lane 5" 4 "the lane 4" 3 "the lane 3" 2 "the lane 2" 1 "the lane 1" 0 "no cross lane" ;
+VAL_ 898 Lane8_Confidence 5 "1.0" 4 "0.75" 3 "0.5" 2 "0.25" 1 "0.1" 0 "0" ;
+VAL_ 256 PedRider1_STATUS 3 "measured this cycle" 2 "latent track not detctd this cycle" 1 "new object" 0 "no object" ;
+VAL_ 256 PedRider1_CLASSIFICATION 3 "reserved" 2 "rider" 1 "pedestrian" 0 "unknow" ;
+VAL_ 265 PedRider10_STATUS 3 "measured this cycle" 2 "latent track not detctd this cycle" 1 "new object" 0 "no object" ;
+VAL_ 265 PedRider10_CLASSIFICATION 3 "reserved" 2 "rider" 1 "pedestrian" 0 "unknow" ;
+VAL_ 266 PedRider11_STATUS 3 "measured this cycle" 2 "latent track not detctd this cycle" 1 "new object" 0 "no object" ;
+VAL_ 266 PedRider11_CLASSIFICATION 3 "reserved" 2 "rider" 1 "pedestrian" 0 "unknow" ;
+VAL_ 267 PedRider12_STATUS 3 "measured this cycle" 2 "latent track not detctd this cycle" 1 "new object" 0 "no object" ;
+VAL_ 267 PedRider12_CLASSIFICATION 3 "reserved" 2 "rider" 1 "pedestrian" 0 "unknow" ;
+VAL_ 268 PedRider13_STATUS 3 "measured this cycle" 2 "latent track not detctd this cycle" 1 "new object" 0 "no object" ;
+VAL_ 268 PedRider13_CLASSIFICATION 3 "reserved" 2 "rider" 1 "pedestrian" 0 "unknow" ;
+VAL_ 269 PedRider14_STATUS 3 "measured this cycle" 2 "latent track not detctd this cycle" 1 "new object" 0 "no object" ;
+VAL_ 269 PedRider14_CLASSIFICATION 3 "reserved" 2 "rider" 1 "pedestrian" 0 "unknow" ;
+VAL_ 270 PedRider15_STATUS 3 "measured this cycle" 2 "latent track not detctd this cycle" 1 "new object" 0 "no object" ;
+VAL_ 270 PedRider15_CLASSIFICATION 3 "reserved" 2 "rider" 1 "pedestrian" 0 "unknow" ;
+VAL_ 271 PedRider16_STATUS 3 "measured this cycle" 2 "latent track not detctd this cycle" 1 "new object" 0 "no object" ;
+VAL_ 271 PedRider16_CLASSIFICATION 3 "reserved" 2 "rider" 1 "pedestrian" 0 "unknow" ;
+VAL_ 257 PedRider2_STATUS 3 "measured this cycle" 2 "latent track not detctd this cycle" 1 "new object" 0 "no object" ;
+VAL_ 257 PedRider2_CLASSIFICATION 3 "reserved" 2 "rider" 1 "pedestrian" 0 "unknow" ;
+VAL_ 258 PedRider3_STATUS 3 "measured this cycle" 2 "latent track not detctd this cycle" 1 "new object" 0 "no object" ;
+VAL_ 258 PedRider3_CLASSIFICATION 3 "reserved" 2 "rider" 1 "pedestrian" 0 "unknow" ;
+VAL_ 259 PedRider4_STATUS 3 "measured this cycle" 2 "latent track not detctd this cycle" 1 "new object" 0 "no object" ;
+VAL_ 259 PedRider4_CLASSIFICATION 3 "reserved" 2 "rider" 1 "pedestrian" 0 "unknow" ;
+VAL_ 260 PedRider5_STATUS 3 "measured this cycle" 2 "latent track not detctd this cycle" 1 "new object" 0 "no object" ;
+VAL_ 260 PedRider5_CLASSIFICATION 3 "reserved" 2 "rider" 1 "pedestrian" 0 "unknow" ;
+VAL_ 261 PedRider6_STATUS 3 "measured this cycle" 2 "latent track not detctd this cycle" 1 "new object" 0 "no object" ;
+VAL_ 261 PedRider6_CLASSIFICATION 3 "reserved" 2 "rider" 1 "pedestrian" 0 "unknow" ;
+VAL_ 262 PedRider7_STATUS 3 "measured this cycle" 2 "latent track not detctd this cycle" 1 "new object" 0 "no object" ;
+VAL_ 262 PedRider7_CLASSIFICATION 3 "reserved" 2 "rider" 1 "pedestrian" 0 "unknow" ;
+VAL_ 263 PedRider8_STATUS 3 "measured this cycle" 2 "latent track not detctd this cycle" 1 "new object" 0 "no object" ;
+VAL_ 263 PedRider8_CLASSIFICATION 3 "reserved" 2 "rider" 1 "pedestrian" 0 "unknow" ;
+VAL_ 264 PedRider9_STATUS 3 "measured this cycle" 2 "latent track not detctd this cycle" 1 "new object" 0 "no object" ;
+VAL_ 264 PedRider9_CLASSIFICATION 3 "reserved" 2 "rider" 1 "pedestrian" 0 "unknow" ;
+VAL_ 657 Vehicle10_Status 3 "measured this cycle" 2 "latent track not detctd this cycle" 1 "new object" 0 "no object" ;
+VAL_ 658 Vehicle10_Type 3 "special" 2 "truck" 1 "car" 0 "unknow" ;
+VAL_ 658 Vehicle10_BrLightIndicator 3 "reserved" 2 "brake light is steady active" 1 "no brake light is active" 0 "unknow" ;
+VAL_ 658 Vehicle10_TurnIndicator 3 "unknow" 2 "right turn indicator active" 1 "left turn indicator active" 0 "no active" ;
+VAL_ 673 Vehicle11_Status 3 "measured this cycle" 2 "latent track not detctd this cycle" 1 "new object" 0 "no object" ;
+VAL_ 674 Vehicle11_Type 3 "special" 2 "truck" 1 "car" 0 "unknow" ;
+VAL_ 674 Vehicle11_BrLightIndicator 3 "reserved" 2 "brake light is steady active" 1 "no brake light is active" 0 "unknow" ;
+VAL_ 674 Vehicle11_TurnIndicator 3 "unknow" 2 "right turn indicator active" 1 "left turn indicator active" 0 "no active" ;
+VAL_ 689 Vehicle12_Status 3 "measured this cycle" 2 "latent track not detctd this cycle" 1 "new object" 0 "no object" ;
+VAL_ 690 Vehicle12_Type 3 "special" 2 "truck" 1 "car" 0 "unknow" ;
+VAL_ 690 Vehicle12_BrLightIndicator 3 "reserved" 2 "brake light is steady active" 1 "no brake light is active" 0 "unknow" ;
+VAL_ 690 Vehicle12_TurnIndicator 3 "unknow" 2 "right turn indicator active" 1 "left turn indicator active" 0 "no active" ;
+VAL_ 705 Vehicle13_Status 3 "measured this cycle" 2 "latent track not detctd this cycle" 1 "new object" 0 "no object" ;
+VAL_ 706 Vehicle13_Type 3 "special" 2 "truck" 1 "car" 0 "unknow" ;
+VAL_ 706 Vehicle13_BrLightIndicator 3 "reserved" 2 "brake light is steady active" 1 "no brake light is active" 0 "unknow" ;
+VAL_ 706 Vehicle13_TurnIndicator 3 "unknow" 2 "right turn indicator active" 1 "left turn indicator active" 0 "no active" ;
+VAL_ 721 Vehicle14_Status 3 "measured this cycle" 2 "latent track not detctd this cycle" 1 "new object" 0 "no object" ;
+VAL_ 722 Vehicle14_Type 3 "special" 2 "truck" 1 "car" 0 "unknow" ;
+VAL_ 722 Vehicle14_BrLightIndicator 3 "reserved" 2 "brake light is steady active" 1 "no brake light is active" 0 "unknow" ;
+VAL_ 722 Vehicle14_TurnIndicator 3 "unknow" 2 "right turn indicator active" 1 "left turn indicator active" 0 "no active" ;
+VAL_ 737 Vehicle15_Status 3 "measured this cycle" 2 "latent track not detctd this cycle" 1 "new object" 0 "no object" ;
+VAL_ 738 Vehicle15_Type 3 "special" 2 "truck" 1 "car" 0 "unknow" ;
+VAL_ 738 Vehicle15_BrLightIndicator 3 "reserved" 2 "brake light is steady active" 1 "no brake light is active" 0 "unknow" ;
+VAL_ 738 Vehicle15_TurnIndicator 3 "unknow" 2 "right turn indicator active" 1 "left turn indicator active" 0 "no active" ;
+VAL_ 753 Vehicle16_Status 3 "measured this cycle" 2 "latent track not detctd this cycle" 1 "new object" 0 "no object" ;
+VAL_ 754 Vehicle16_Type 3 "special" 2 "truck" 1 "car" 0 "unknow" ;
+VAL_ 754 Vehicle16_BrLightIndicator 3 "reserved" 2 "brake light is steady active" 1 "no brake light is active" 0 "unknow" ;
+VAL_ 754 Vehicle16_TurnIndicator 3 "unknow" 2 "right turn indicator active" 1 "left turn indicator active" 0 "no active" ;
+VAL_ 513 Vehicle1_Status 3 "measured this cycle" 2 "latent track not detctd this cycle" 1 "new object" 0 "no object" ;
+VAL_ 514 Vehicle1_Type 3 "special" 2 "truck" 1 "car" 0 "unknow" ;
+VAL_ 514 Vehicle1_BrLightIndicator 3 "reserved" 2 "brake light is steady active" 1 "no brake light is active" 0 "unknow" ;
+VAL_ 514 Vehicle1_TurnIndicator 3 "unknow" 2 "right turn indicator active" 1 "left turn indicator active" 0 "no active" ;
+VAL_ 529 Vehicle2_Status 3 "measured this cycle" 2 "latent track not detctd this cycle" 1 "new object" 0 "no object" ;
+VAL_ 530 Vehicle2_Type 3 "special" 2 "truck" 1 "car" 0 "unknow" ;
+VAL_ 530 Vehicle2_BrLightIndicator 3 "reserved" 2 "brake light is steady active" 1 "no brake light is active" 0 "unknow" ;
+VAL_ 530 Vehicle2_TurnIndicator 3 "unknow" 2 "right turn indicator active" 1 "left turn indicator active" 0 "no active" ;
+VAL_ 545 Vehicle3_Status 3 "measured this cycle" 2 "latent track not detctd this cycle" 1 "new object" 0 "no object" ;
+VAL_ 546 Vehicle3_Type 3 "special" 2 "truck" 1 "car" 0 "unknow" ;
+VAL_ 546 Vehicle3_BrLightIndicator 3 "reserved" 2 "brake light is steady active" 1 "no brake light is active" 0 "unknow" ;
+VAL_ 546 Vehicle3_TurnIndicator 3 "unknow" 2 "right turn indicator active" 1 "left turn indicator active" 0 "no active" ;
+VAL_ 561 Vehicle4_Status 3 "measured this cycle" 2 "latent track not detctd this cycle" 1 "new object" 0 "no object" ;
+VAL_ 562 Vehicle4_Type 3 "special" 2 "truck" 1 "car" 0 "unknow" ;
+VAL_ 562 Vehicle4_BrLightIndicator 3 "reserved" 2 "brake light is steady active" 1 "no brake light is active" 0 "unknow" ;
+VAL_ 562 Vehicle4_TurnIndicator 3 "unknow" 2 "right turn indicator active" 1 "left turn indicator active" 0 "no active" ;
+VAL_ 577 Vehicle5_Status 3 "measured this cycle" 2 "latent track not detctd this cycle" 1 "new object" 0 "no object" ;
+VAL_ 578 Vehicle5_Type 3 "special" 2 "truck" 1 "car" 0 "unknow" ;
+VAL_ 578 Vehicle5_BrLightIndicator 3 "reserved" 2 "brake light is steady active" 1 "no brake light is active" 0 "unknow" ;
+VAL_ 578 Vehicle5_TurnIndicator 3 "unknow" 2 "right turn indicator active" 1 "left turn indicator active" 0 "no active" ;
+VAL_ 593 Vehicle6_Status 3 "measured this cycle" 2 "latent track not detctd this cycle" 1 "new object" 0 "no object" ;
+VAL_ 594 Vehicle6_Type 3 "special" 2 "truck" 1 "car" 0 "unknow" ;
+VAL_ 594 Vehicle6_BrLightIndicator 3 "reserved" 2 "brake light is steady active" 1 "no brake light is active" 0 "unknow" ;
+VAL_ 594 Vehicle6_TurnIndicator 3 "unknow" 2 "right turn indicator active" 1 "left turn indicator active" 0 "no active" ;
+VAL_ 609 Vehicle7_Status 3 "measured this cycle" 2 "latent track not detctd this cycle" 1 "new object" 0 "no object" ;
+VAL_ 610 Vehicle7_Type 3 "special" 2 "truck" 1 "car" 0 "unknow" ;
+VAL_ 610 Vehicle7_BrLightIndicator 3 "reserved" 2 "brake light is steady active" 1 "no brake light is active" 0 "unknow" ;
+VAL_ 610 Vehicle7_TurnIndicator 3 "unknow" 2 "right turn indicator active" 1 "left turn indicator active" 0 "no active" ;
+VAL_ 625 Vehicle8_Status 3 "measured this cycle" 2 "latent track not detctd this cycle" 1 "new object" 0 "no object" ;
+VAL_ 626 Vehicle8_Type 3 "special" 2 "truck" 1 "car" 0 "unknow" ;
+VAL_ 626 Vehicle8_BrLightIndicator 3 "reserved" 2 "brake light is steady active" 1 "no brake light is active" 0 "unknow" ;
+VAL_ 626 Vehicle8_TurnIndicator 3 "unknow" 2 "right turn indicator active" 1 "left turn indicator active" 0 "no active" ;
+VAL_ 641 Vehicle9_Status 3 "measured this cycle" 2 "latent track not detctd this cycle" 1 "new object" 0 "no object" ;
+VAL_ 642 Vehicle9_Type 3 "special" 2 "truck" 1 "car" 0 "unknow" ;
+VAL_ 642 Vehicle9_BrLightIndicator 3 "reserved" 2 "brake light is steady active" 1 "no brake light is active" 0 "unknow" ;
+VAL_ 642 Vehicle9_TurnIndicator 3 "unknow" 2 "right turn indicator active" 1 "left turn indicator active" 0 "no active" ;
+
